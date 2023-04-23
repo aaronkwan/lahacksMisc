@@ -1,0 +1,90 @@
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Data Skewing
+Data skewed left: more data on right, large left tail.
+Data skewed right: more data on left, large right tail.
+Standard Deviation
+Find mean
+Find sum of squared deviations
+Find variance: divide squared deviations / (n-1)
+Take square root
+
+Empirical Rule
+Middle 68% is 1 standard deviation.
+Middle 95% is 2 standard deviation.
+Middle 99.7% is 3 standard deviation.
+Unusual: +- 2 standard deviations.
+"
+Response: 
+"
+Data Skewing
+Data is skewed to the right if more data is on the left and the distribution has a large right tail.
+Data is skewed to the left if more data is on the right and the distribution has a large left tail.
+The standard deviation is used to find the variance of a distribution.
+The empirical rule states that 68% of the data is within 1 standard deviation of the mean, 95% of the data is within 2 standard deviations of the mean, and 99.7% of the data is within 3 standard deviations of the mean.
+The mean, the standard deviation, and the empirical rule can be used to calculate the variance of a distribution.
+"
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+1 prop Test Statistic:
+z = (p̂ - p) / sqrt(p*(1-p)/n)
+z = (0.16 - 0.20) / sqrt(0.2*0.8/400)
+z = -2
+In this example, 0.16 is sample prop, 0.2 is pop prop, n=400.
+
+Plot z=-2 on normal distribution curve, find area more extreme (1 or 2 tailed). In this case, area=0.025.
+Significance level is 0.05, so strong evidence, reject null hypothesis.
+"
+Response: 
+"
+2. Normal distribution
+- Mean = average
+- Standard deviation = spread
+- Standard error = sqrt( Standard Deviation / N)
+- N is number of data points
+
+3. Samples and population
+- Samples: a group of observations
+- Population: the whole group
+
+4. Hypothesis testing
+- Null hypothesis: H0
+- Alternate hypothesis: H1
+- Significance level: alpha
+- Type 1 error: rejecting H0 when it is true
+- Type 2 error: not rejecting H0 when it is false
+- Power: the probability that you'll correctly reject the null hypothesis
+
+5. Confidence intervals
+- Interval width: se
+- Interval width: 1- se
+
+6. Chi-square distribution
+- Chi-square distribution is used to compare two groups
+- Chi-square distribution is used to compare more than two groups
+- Chi-square distribution is used to compare more than two groups and test for independence
+- Chi-square distribution is used to compare more than two groups and test for correlation
+- Chi-square distribution is used to compare more than two groups and test for regression
+
+7. Confidence intervals for Chi-square distribution
+- Interval width: se
+- Interval width: 1- se
+
+8. One-way ANOVA
+- Independent variables: X1, X2
+- Dependent variable: Y
+- Null hypothesis: Ha
+- Alternate hypothesis: Hb
+- Significance level: alpha
+- Power: beta
+- Type 1 error: rejecting Ha when it is true
+- Type 2 error: not rejecting Ha when it is false
+- Type 3 error: rejecting Hb when it is true
+
+9. Confidence intervals for one-way ANOVA
+- Interval width: se
+- Interval width: 1
+"

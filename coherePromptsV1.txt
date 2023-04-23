@@ -1,0 +1,1551 @@
+Prompt:
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+1/11/23: 
+At acid pKa, 1:1 HA/A-.
+At 1 pH lower (1 order of magnitude more H+), 10:1 HA/A-.
+At 1 pH higher (1 order of magnitude less H+), 1:10 HA/A-.
+Henderson Hasselback: pH=pKa+log(A-/HA)
+
+1/13/23:
+pI: average the two pKas around the neutral range (when molecule is zwitterion)
+If you are at carboxy pKa, its actually closer to 0.5 net charge (not all of the molecules have COO-, but they definitely have NH3+).
+If you are at amino pKa, its actually closer to -0.5 net charge (all molecules have COO-, but not all have NH3+).
+As pH range decreases, you have more positive charge.
+"
+
+Response:
+"
+  <body>
+    <h1>Notes on Acid-Base Equilibria</h1>
+    <h2>January 11, 2023</h2>
+    <ul>
+      <li>At acid pKa, the ratio of HA to A- is 1:1.</li>
+      <li>At a pH one unit lower (i.e., one order of magnitude more H+), the ratio of HA to A- is 10:1.</li>
+      <li>At a pH one unit higher (i.e., one order of magnitude less H+), the ratio of HA to A- is 1:10.</li>
+      <li>The Henderson-Hasselbalch equation relates the pH of a solution to the pKa of an acid and the ratio of its conjugate base to acid forms: pH = pKa + log(A-/HA).</li>
+    </ul>
+    <h2>January 13, 2023</h2>
+    <ul>
+      <li>The isoelectric point (pI) of a molecule is the pH at which it has no net charge.</li>
+      <li>The pI is obtained by averaging the two pKas closest to the neutral pH range where the molecule exists as a zwitterion.</li>
+      <li>If the pH is at the carboxylic acid pKa, the net charge is actually closer to 0.5 (not all molecules have COO-, but they definitely have NH3+).</li>
+      <li>If the pH is at the amino pKa, the net charge is actually closer to -0.5 (all molecules have COO-, but not all have NH3+).</li>
+      <li>As the pH decreases, there is more positive charge in the molecule.</li>
+      <li>See HW1 9b for an example.</li>
+    </ul>
+  </body>
+"
+--SEPARATOR--
+Prompt:
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+1/18/23:
+
+Accepting Hydrogen Bond: Need lone pair of NOF
+Donating Hydrogen Bond: Need H from NOF.
+DeltaH: bonds formed - bonds broken (products - reactants)
+DeltaS: S_product - S_reactants
+
+1/19/23:
+
+Catabolic: break molecule to gain energy
+Anabolic: build molecule, store energy
+
+1/23/23:
+Secondary structure: the most stable dihedral angles of the H-bonds are alpha helix and beta sheet.
+Side chains create conformational constraints: steric hindrance, electrostatic repulsion. 
+Side chains want to be trans.
+Alpha helix is mostly right-handed 
+Net dipole moment from lots of peptide bonds.
+In order to tell antiparallel versus parallel, figure out the orientation of bonds.
+Turn v Loop: 
+"
+Response:
+"
+<body>
+<h1>Notes</h1>
+<h2>Hydrogen Bonding</h2>
+<ul>
+  <li>Accepting Hydrogen Bond: Requires a lone pair of electrons on nitrogen (N), oxygen (O), or fluorine (F).</li>
+  <li>Donating Hydrogen Bond: Requires a hydrogen (H) bonded to N, O, or F.</li>
+  <li>DeltaH: The enthalpy change in a reaction is calculated by subtracting the bonds broken in the reactants from the bonds formed in the products.</li>
+  <li>DeltaS: The entropy change in a reaction is calculated by subtracting the entropy of the reactants from the entropy of the products.</li>
+</ul>
+<h2>Metabolism</h2>
+<ul>
+  <li>Catabolic: Breaking down molecules to gain energy.</li>
+  <li>Anabolic: Building molecules and storing energy.</li>
+</ul>
+<h2>Protein Structure</h2>
+<ul>
+  <li>Secondary structure: The most stable dihedral angles of the H-bonds are alpha helix and beta sheet.</li>
+  <li>Side chains create conformational constraints such as steric hindrance and electrostatic repulsion.</li>
+  <li>Side chains prefer to be in the trans configuration.</li>
+  <li>Alpha helix is mostly right-handed.</li>
+  <li>There is a net dipole moment from lots of peptide bonds.</li>
+  <li>To determine antiparallel versus parallel structure, it is necessary to figure out the orientation of the peptide bonds.</li>
+  <li>Turn v Loop: </li>
+</ul>
+</body>
+"
+--SEPARATOR--
+Prompt:
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+
+1/24/23:
+Beta sheet: alternative polar/non polar peptides.
+Alpha Helix: 
+
+1/25/23:
+Ligands: small molecules binding to larger biomolecules. Bind to characteristic binding sites. (noncovalent)
+
+Kd = [L] when Y=0.5.
+Discussion:
+If you want amphipathic beta sheet: polar-nonpolar pattern.
+If you want amphipathic alpha helix: polar-polar-nonpolar-nonpolar, near ratio of 2:2 (since each turn is 3.6 ~ 4 residues)
+Protein binding: cooperative binding looks like sigmoidal curve.
+
+1/27/23:
+Transition from T (tense) state to R (relax) state of hemoglobin:
+First, in T state, porphyrin ring is angled due to Fe’s electron density.
+When oxygen binds to Fe, it pulls electron density away, and porphyrin straightens out.
+Fe gets pulled downwards, pulling proximal His (alpha helix subunit) along. 
+Salt bridges (ionic interactions) between adjacent subunits break. This causes molecule to relax. Of course, some new interactions can form.
+Hill coefficient (n): measure of cooperation. New formula: Y=[L]n/(Kd+[L]n). 
+Hill coefficient 0<n<1: negatively cooperative
+Hill coefficient n=1: not cooperative
+Hill coefficient 1<n<x (x is number of subunits): positively cooperative.
+Allosteric homotropic: substrate binds to another site, affecting substrate binding efficiency.
+Allosteric heterotropic: another molecule binds to another sit,e affecting substrate binding efficiency.
+Oxygen is homotropic positive regulator of hemoglobin.
+2,3-BPG is heterotropic negative regulator of hemoglobin (it stabilizes T state by binding in the cavity in center of molecule).
+Since 2,3-BPG is negatively charged, it interacts with Lys/His in the center. If no Lys/His, then more R state o.o
+Bohr effect: His is protonated at lower pH, meaning it can interact with Asp, increating salt bridge for T state, leading to lower oxygen affinity. Also, CO2 + terminal amino group = carbamate group (negatively charged). This increase salt bridge for T state, leading to lower oxygen affinity. Overall, curve shifts right.
+
+"
+Response:
+"
+<body>
+<h2>January 24, 2023</h2>
+<ul>
+	<li>Beta sheet: alternative polar/non-polar peptides.</li>
+	<li>Alpha Helix:</li>
+</ul>
+
+<h2>January 25, 2023</h2>
+<ul>
+	<li>Ligands: small molecules binding to larger biomolecules. Bind to characteristic binding sites. (noncovalent)</li>
+	<li>Kd = [L] when Y=0.5.</li>
+	<li>If you want amphipathic beta sheet: polar-nonpolar pattern.</li>
+	<li>If you want amphipathic alpha helix: polar-polar-nonpolar-nonpolar, near ratio of 2:2 (since each turn is 3.6 ~ 4 residues)</li>
+	<li>Protein binding: cooperative binding looks like sigmoidal curve.</li>
+</ul>
+
+<h2>January 27, 2023</h2>
+<ul>
+	<li>Transition from T (tense) state to R (relax) state of hemoglobin:</li>
+	<ul>
+		<li>First, in T state, porphyrin ring is angled due to Fe’s electron density.</li>
+		<li>When oxygen binds to Fe, it pulls electron density away, and porphyrin straightens out.</li>
+		<li>Fe gets pulled downwards, pulling proximal His (alpha helix subunit) along.</li>
+		<li>Salt bridges (ionic interactions) between adjacent subunits break. This causes molecule to relax. Of course, some new interactions can form.</li>
+	</ul>
+	<li>Hill coefficient (n): measure of cooperation. New formula: Y=[L]n/(Kd+[L]n).</li>
+	<ul>
+		<li>Hill coefficient 0 &lt; n &lt; 1: negatively cooperative</li>
+		<li>Hill coefficient n = 1: not cooperative</li>
+		<li>Hill coefficient 1 &lt; n &lt; x (x is the number of subunits): positively cooperative.</li>
+	</ul>
+	<li>Allosteric homotropic: substrate binds to another site, affecting substrate binding efficiency.</li>
+	<li>Allosteric heterotropic: another molecule binds to another site, affecting substrate binding efficiency.</li>
+	<li>Oxygen is homotropic positive regulator of hemoglobin.</li>
+	<li>2,3-BPG is heterotropic negative regulator of hemoglobin (it stabilizes T state by binding in the cavity in center of molecule).</li>
+	<li>Since 2,3-BPG is negatively charged, it interacts with Lys/His in the center. If no Lys/His, then more R state o.o</li>
+	<li>Bohr effect: His is protonated at lower pH, meaning it can interact with Asp, increasing salt bridge for T state, leading to lower oxygen affinity. Also, CO2 + terminal amino group = carbamate group (negatively charged). This increases salt bridge for T state, leading to lower oxygen affinity. Overall, curve shifts right.</li>
+</ul>
+</body>
+"
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Lecture 2/08/23:
+Oxidoreductase: transfer electron to change oxidation state
+Transferase: transfer functional group.
+Hydrolase: use water to break bond.
+Lyase: remove group to form double bond.
+Ligase: connect two.
+Isomerase: rearrange.
+Acid-base catalysis: Donating proton = good LG nucleophile. Taking proton = good electrophile.
+Covalent catalysis: active site’s X forms new covalent intermediate (A-B -> A-X), lowering energy level of intermediates and allowing (A-X -> A+X+B).
+Electrostatic catalysis: active site’s residues can stabilize transition state through LDF, dipole, etc.
+Metal-ion catalysts: metal ion enzyme cofactors help assist in catalysis. Stabilize negative/nucleophillic substrates.
+Lecture 2/10/23:
+RNase A: cow enzyme. Ribonuclease.
+Cuts RNA after pyrimidine (Uracil, Cytosine).
+Mechanism:
+
+
+Serine protease: use catalytic triad: Base, Acid, Nucleophile.
+Base: Histidine/Lys - base catalysis to deprotonate nucleophile.	
+Acid: Aspartate/Glu - stabilization only.
+Nucleophile: Serine/Cys/Thr - makes attack on target electrophile.
+Chymotrypsin is one serine protease. 
+P1: active site has oxyanion hole, hydrophobic pocket. Chymotrypsin cuts at large aromatics (Phe) electrostatic catalysis x2.
+Catalytic triad: Ser/Gly act as nucleophile for carbonyl + form oxyanion hole, His acts like base. 
+Serine also forms covalent catalysis with carbonyl.
+Peptide leaves.
+Restore active site.
+
+
+
+Oxyanion forming is a higher energy level.
+Discussion:
+Acid catalysis: enzyme donates proton
+Base catalysis: enzyme accepts proton.
+
+"
+Response: 
+"
+<body>
+    <h1>Notes on Enzyme Catalysis</h1>
+    <h2>Lecture 2/08/23</h2>
+    <h3>Enzyme Classification</h3>
+    <ul>
+      <li>Oxidoreductases transfer electrons to change oxidation state.</li>
+      <li>Transferases transfer functional groups.</li>
+      <li>Hydrolases use water to break bonds.</li>
+      <li>Lyases remove groups to form double bonds.</li>
+      <li>Ligases connect two molecules.</li>
+      <li>Isomerases rearrange molecules.</li>
+    </ul>
+    <h3>Catalysis Mechanisms</h3>
+    <ul>
+      <li>Acid-base catalysis involves donating a proton as a good leaving group nucleophile or taking a proton as a good electrophile.</li>
+      <li>Covalent catalysis involves the active site forming a new covalent intermediate (A-B -> A-X) to lower the energy level of intermediates and facilitate the reaction (A-X -> A+X+B).</li>
+      <li>Electrostatic catalysis involves the active site's residues stabilizing the transition state through London dispersion forces, dipole moments, and other mechanisms.</li>
+      <li>Metal-ion catalysts involve metal ions serving as enzyme cofactors to assist in catalysis and stabilize negative/nucleophilic substrates.</li>
+    </ul>
+    <h2>Lecture 2/10/23</h2>
+    <h3>Enzyme Example: RNase A</h3>
+    <ul>
+      <li>RNase A is a cow enzyme that cuts RNA after pyrimidine (Uracil, Cytosine).</li>
+    </ul>
+    <h3>Enzyme Example: Serine Protease</h3>
+    <ul>
+      <li>Serine proteases use a catalytic triad (base, acid, nucleophile) to facilitate reactions.</li>
+      <li>The base (histidine/lysine) deprotonates the nucleophile, the acid (aspartate/glutamate) stabilizes the intermediate, and the nucleophile (serine/cysteine/threonine) attacks the electrophile.</li>
+      <li>Chymotrypsin is one serine protease that cuts at large aromatics (Phe) using electrostatic catalysis.</li>
+      <li>The active site has an oxyanion hole and a hydrophobic pocket to accommodate the substrate.</li>
+      <li>The catalytic triad (Ser/Gly/His) is responsible for covalent catalysis and restoring the active site after the peptide leaves.</li>
+      <li>Oxyanion forming is a higher energy level.</li>
+    </ul>
+    <h3>Discussion</h3>
+    <ul>
+      <li>Acid catalysis involves the enzyme donating a proton, while base catalysis involves the enzyme accepting a proton.</li>
+    </ul>
+  </body>
+"
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Lec 2/13/23: Enzyme Kinetics
+Michaelis Menten Equation: 
+Km is substrate concentration at which rate is 50% of Vmax.
+Thus, lower Km means more efficiency.
+Kcat is turnover number: Vmax / E0.
+Thus, catalytic efficiency is Kcat / Km (lower Km & higher Kcat mean more efficiency).
+Lineweaver-Burke Plot: 1/S against 1/V.
+1/Vmax is the y-intercept and -1/Km is the x-intercept.
+Solving for cat eff given y intercept 0.15, x intercept -0.03:
+Vmax=6.66, Km=33.33.
+Kcat=6.66/0.1=66.6, divide this by 33.33, you get cat eff:2.
+Lec 2/24/23: Enzyme Inhibitors
+Reversible versus nonReversible.
+Competitive, Uncompetitive, Noncompetitive, Mixed.
+Competitive:
+Uses Ki (similar to Kd), lower Ki means better bind.
+EX: transition state analog
+Does not modify Vmax (you just get there slower).
+This, Vmax unchanged, Km increased.
+Uncompetitive:
+Only bind to allosteric site, which impacts active site. However, only binds to ES complex.
+Decreases both Vmax (locks away some enzymes) and surprisingly Km (since it takes away some ES complexes, due to la-chattlier’s principle, the reaction is driven forward).
+Alters them by the same constant, which creates parallel Lineweaver-Burke plots.
+Mixed:
+Only bind to allosteric site, but binds to either E or ES complex.
+Ki and Ki’, Ki is from E, Ki’ is from ES.
+Vmax always decreases. For Km, if the enzyme tends to E, increase. If enzyme tends to ES, decrease.
+Noncompetitive:
+Special Mixed Enzyme Inhibitor: Ki and Ki’ are equal. Substrate concentration does not effect its effectiveness.
+Vmax decreases, Km does not get impacted. 
+
+Irreversible Inhibition: covalently alter an enzyme functional group.
+
+"
+Response: 
+"
+<body>
+    <h1>Notes on Enzyme Kinetics</h1>
+    <h2>Lecture on February 13, 2023</h2>
+    <ul>
+      <li>The Michaelis-Menten equation describes the relationship between the rate of an enzymatic reaction and the substrate concentration.</li>
+      <li>Km is the substrate concentration at which the rate is 50% of Vmax, and a lower Km means greater efficiency.</li>
+      <li>Kcat is the turnover number, Vmax divided by the initial enzyme concentration, and catalytic efficiency is given by Kcat/Km (higher Kcat and lower Km indicate greater efficiency).</li>
+      <li>The Lineweaver-Burke plot is a double reciprocal graph that relates 1/S to 1/V.</li>
+      <li>The y-intercept of the Lineweaver-Burke plot is equal to 1/Vmax and the x-intercept is equal to -1/Km.</li>
+      <li>By solving for the catalytic efficiency given a y-intercept of 0.15 and an x-intercept of -0.03, we can obtain Vmax = 6.66, Km = 33.33, Kcat = 66.6, and catalytic efficiency = 2.</li>
+    </ul>
+    <h2>Lecture on February 24, 2023</h2>
+    <ul>
+      <li>Enzyme inhibitors can be reversible or irreversible and competitive, uncompetitive, noncompetitive, or mixed.</li>
+      <li>Competitive inhibitors bind to the active site of the enzyme and are characterized by their dissociation constant Ki (similar to Kd); a lower Ki means better binding.</li>
+      <li>Competitive inhibitors do not modify Vmax, but they increase Km (i.e., they slow down the reaction).</li>
+      <li>Uncompetitive inhibitors bind to an allosteric site that is distinct from the active site and only bind to the ES complex; they decrease both Vmax (by locking away some enzymes) and surprisingly, Km (due to Le Chatelier's principle).</li>
+      <li>Mixed inhibitors bind to an allosteric site and can bind to either E or ES complex; they are characterized by two dissociation constants, Ki and Ki'.</li>
+      <li>Noncompetitive inhibitors are a special case of mixed inhibitors in which Ki and Ki' are equal, and substrate concentration does not affect the inhibitor's effectiveness; they decrease Vmax without affecting Km.</li>
+      <li>Irreversible inhibitors covalently modify an enzyme functional group and permanently inactivate the enzyme.</li>
+    </ul>
+  </body>
+"
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Chem 14D Notes
+9/23/22
+Enantiomer: a pair of molecules where every stereocenter ungoes inversion.
+R versus S: priority based off atomic number, R clockwise S counterclockwise.
+Raecemic mixture: use squiggly line instead of wedge of line.
+Attention to detail: type of stereocenter bond means all the difference.
+
+9/26/22
+
+
+Carboanion laboratory form: RMgBr. Mg=+2, Br=-1. Thus, R=-1 charge, a carboanion. Change to R-. 
+Acids: Tend to contain atom with H available to give.
+Bases: Tend to contain atom with lone pair / negative charge.
+Curved arrow (Proton transfer): One from lone pair on base to H (making a single bond), One from H’s single bond to acid atom (breaking a single bond)
+EX: 
+Acid may gain negative charge, base may lose negative charge
+We can reframe it as electron transfer:
+Bond-making arrow is always from electron-rich -> electron-poor region (Nucleophile/Lewis Base-> Electrophile/Lewis Acceptor)
+Nucleophile clues: 1. Atoms with (-): alkoxide, carboanions. 2. Pi bonds: alkenes, alkynes, benzene. 3. Atoms with delta- (partial negative charge): atoms with lone pairs.
+Electrophile clues: 1. Atoms with (+): carbocations. 2. Atoms with delta+ (partial positive charge): Carbon attached to electronegative atom, Hydrogen attached to electronegative atom (acidic protons). 
+EX: 
+Don’t forget the small arrow (electron pushing)!
+
+"
+Response: 
+"
+<body>
+    <h1>Chem 14D Notes</h1>
+    <h2>September 23, 2022</h2>
+    <ul>
+      <li>An enantiomer is a pair of molecules where every stereocenter undergoes inversion.</li>
+      <li>The R or S designation for a stereocenter is based on the priority of the groups attached to it, with R meaning clockwise and S meaning counterclockwise.</li>
+      <li>When drawing a racemic mixture, a squiggly line is used instead of a wedge or dashed line.</li>
+      <li>Paying attention to the type of stereocenter bond is important because it can make all the difference.</li>
+    </ul>
+    <h2>September 26, 2022</h2>
+    <ul>
+      <li>The laboratory form for a carbanion is RMgBr, where Mg has a +2 charge and Br has a -1 charge, making R a carbanion with a -1 charge.</li>
+      <li>Acids tend to contain an atom with an available hydrogen ion to give, while bases tend to contain an atom with a lone pair or negative charge.</li>
+      <li>In a proton transfer, a curved arrow goes from the lone pair on the base to the hydrogen ion, making a single bond, and another arrow goes from the hydrogen's single bond to the acid atom, breaking a single bond.</li>
+      <li>We can also think of this as electron transfer, where the bond-making arrow always goes from the electron-rich region (nucleophile/Lewis base) to the electron-poor region (electrophile/Lewis acceptor).</li>
+      <li>Nucleophiles include atoms with a negative charge, such as alkoxides and carbanions, pi bonds, and atoms with a partial negative charge.</li>
+      <li>Electrophiles include atoms with a positive charge, such as carbocations, and atoms with a partial positive charge, such as a carbon attached to an electronegative atom or a hydrogen attached to an electronegative atom.</li>
+      <li>Don't forget to include the small arrow (electron pushing) when drawing the mechanism.</li>
+    </ul>
+  </body>
+"
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+General Reaction Patterns:
+
+Charge is ALWAYS conserved.
+1. Leaving Group Leaving (LGLeaves): electronegative atom snaps off.
+2. Opposite of 1. Nucleophile->Electrophile. 
+3. Combination of 1. and 2. Substitution!
+4. Involving Pi bonds: Addition!
+Kinetics:
+Unimolecular: rate law based off only one molecule: 1st order overall
+Bimolecular: rate law based off two molecules: 2nd order overall
+Activation Energy Diagrams: Energy changes during a reaction.
+1 step or 2 step reaction (1 peak versus 2 peaks)
+The valley in a 2 step: intermediate (usually carbocation)
+
+HALOALKANE SUBSTITUTION REACTIONS:
+Reaction 1: Haloalkane Sn2
+Noradrenaline’s N (nucleophile) reacts with methyl group (electrophile) of SAM to get adrenaline
+Remember: arrow from nucleophile -> electrophile.
+
+Haloalkane is your electrophile. X=Cl, Br, I
+Nucleophile always bonds to the R, and X leaves
+BiMolecular Nucleophilic Substitution (SN2) Kinetics:
+Rate = k[Nu][El].
+Energy Diagram: 1 local maxima, 1 step reaction. Concerted reaction: bond making occurs at the same time as bond breaking.
+Stereochemistry: 
+
+Front: same side as LG
+Back: opposite side as LG
+Since X large, Nu approaches El from the back. Backside attack.
+
+NOTICE: substituents change sides (because Iodine so large). Changes configuration- 100% Stereospecific
+Other stereocenters are not involved
+EX: 
+Pay attention to Wedge Versus Dashes!
+If the carbon you are attacking is not a stereocenter, don’t worry about R/S configs!
+Reaction Rates:
+Leaving Group Ability of “LG”:
+The best leaving groups form the most stable anions- weaker the base, the better. Cl, Br, I anions are conjugates of strong -> super weak bases. Sulfonate ion is also very good: ROSO3-.
+Nucleophilicity “Nu”
+The Best Nucleophiles are strongly basic- readily donate electron.
+Anionic conjugate V its parent: OH V H2O, H2N V H3N. Species more negatively charged is the better nucleophile.
+Same row of periodic table: Basicity/nucleophilicity decreases to the right. If you are more electronegative (going to the right), you are less nucleophilic!
+Basisity/Nucleophilicity is opposite of electronegativity.
+
+"
+Response: 
+"
+<h2>General Reaction Patterns:</h2>
+<ul>
+  <li>Charge is ALWAYS conserved.</li>
+  <li>Leaving Group Leaving (LGLeaves): electronegative atom snaps off.</li>
+  <li>Opposite of 1. Nucleophile->Electrophile.</li>
+  <li>Combination of 1. and 2. Substitution!</li>
+  <li>Involving Pi bonds: Addition!</li>
+</ul>
+<h2>Kinetics:</h2>
+<ul>
+  <li>Unimolecular: rate law based off only one molecule: 1st order overall</li>
+  <li>Bimolecular: rate law based off two molecules: 2nd order overall</li>
+  <li>Activation Energy Diagrams: Energy changes during a reaction.</li>
+  <li>1 step or 2 step reaction (1 peak versus 2 peaks)</li>
+  <li>The valley in a 2 step: intermediate (usually carbocation)</li>
+</ul>
+<h2>HALOALKANE SUBSTITUTION REACTIONS:</h2>
+<p>Reaction 1: Haloalkane Sn2</p>
+<p>Noradrenaline’s N (nucleophile) reacts with methyl group (electrophile) of SAM to get adrenaline</p>
+<p>Remember: arrow from nucleophile -> electrophile.</p>
+<p>Haloalkane is your electrophile. X=Cl, Br, I</p>
+<p>Nucleophile always bonds to the R, and X leaves</p>
+<p>BiMolecular Nucleophilic Substitution (SN2) Kinetics:</p>
+<p>Rate = k[Nu][El].</p>
+<p>Energy Diagram: 1 local maxima, 1 step reaction. Concerted reaction: bond making occurs at the same time as bond breaking.</p>
+<p>Stereochemistry:</p>
+<ul>
+  <li>Front: same side as LG</li>
+  <li>Back: opposite side as LG</li>
+  <li>Since X large, Nu approaches El from the back. Backside attack.</li>
+  <li>NOTICE: substituents change sides (because Iodine so large). Changes configuration- 100% Stereospecific</li>
+  <li>Other stereocenters are not involved</li>
+  <li>EX: Pay attention to Wedge Versus Dashes!</li>
+  <li>If the carbon you are attacking is not a stereocenter, don’t worry about R/S configs!</li>
+</ul>
+<h2>Reaction Rates:</h2>
+<p>Leaving Group Ability of “LG”:</p>
+<p>The best leaving groups form the most stable anions- weaker the base, the better. Cl, Br, I anions are conjugates of strong -> super weak bases. Sulfonate ion is also very good: ROSO3-.</p>
+<p>Nucleophilicity “Nu”</p>
+<p>The Best Nucleophiles are strongly basic- readily donate electron.</p>
+<p>Anionic conjugate V its parent: OH V H2O, H2N V H3N. Species more negatively charged is the better nucleophile.</p>
+<p>Same row of periodic table: Basicity/nucleophilicity decreases to the right. If you are more electronegative (going to the right), you are less nucleophilic!</p>
+<p>Basisity/Nucleophilicity is opposite of electronegativity.</p>
+"
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Chem14C Notes
+Pauli Exclusion: no two electrons per orbital can have same quantum numbers
+Aufbau Principle: build up electrons from lowest energy
+Hund’s Rule: Fill up other same energy orbitals before completely filling one.
+
+Electronic Shape: Count lone pairs as atoms
+Molecular Shape: Don’t count lone pairs
+
+Hybridization Diagrams:
+First, find the ground state config.
+1s2, then you have 1 2s orbital, and 3 2p orbitals. Simply fill up these orbitals with the number of valence electrons, keeping in mind the aufbau principle and hund’s rule.
+EX sp2 carbon: 
+Then, choose some orbitals to hybridize, depending on the hybridization of the atom. Since carbon is sp2, hybridize one s orbital and 2 p orbitals. These orbitals become hybrid orbitals. The number of hybrid orbitals is the number of total orbitals you hybridized (s+p). If there are any 2p orbitals left over, we can keep them.
+	EX: 
+Finally, fill in your hybrid orbitals with the valence electrons. Start with the hybrid orbitals (putting 1 electron in each), then moving to the 2p orbital. Finally, given extra electrons, double back to the hybrid orbitals to pair them up. 
+	EX: Carbon has 4 valence electrons.
+Any unpaired electron in the hybrid orbital represents a sigma bond. Any unpaired electron in the 2p orbitals represents a pi bond. Finally, any paired electrons represent lone pairs.
+
+"
+Response: 
+"
+  <body>
+    <h1>Chem14C Notes</h1>
+    <h2>Pauli Exclusion Principle</h2>
+    <p>The Pauli Exclusion Principle states that no two electrons in an atom can have the same set of quantum numbers.</p>
+    <h2>Aufbau Principle</h2>
+    <p>The Aufbau Principle dictates that electrons fill up orbitals starting from the lowest energy levels.</p>
+    <h2>Hund's Rule</h2>
+    <p>Hund's Rule states that electrons will fill up other orbitals of the same energy level before completely filling one orbital.</p>
+    <h2>Electronic Shape vs. Molecular Shape</h2>
+    <p>For electronic shape, lone pairs are counted as atoms. For molecular shape, lone pairs are not counted.</p>
+    <h2>Hybridization Diagrams</h2>
+    <ol>
+      <li>Find the ground state configuration. For example, 1s2 for hydrogen.</li>
+      <li>Fill up the orbitals with the number of valence electrons, keeping in mind the Aufbau Principle and Hund's Rule. For example, for carbon, there is 1 2s orbital and 3 2p orbitals to fill.</li>
+      <li>Choose which orbitals to hybridize based on the hybridization of the atom. For example, since carbon is sp2, one s orbital and 2 p orbitals are hybridized to form hybrid orbitals. The number of hybrid orbitals is equal to the number of total orbitals hybridized (s + p). Any leftover 2p orbitals can be kept.</li>
+      <li>Fill in the hybrid orbitals with the valence electrons. Start with the hybrid orbitals, putting 1 electron in each. Then, move to the 2p orbitals. Finally, given extra electrons, double back to the hybrid orbitals to pair them up.</li>
+      <li>Any unpaired electron in the hybrid orbital represents a sigma bond, any unpaired electron in the 2p orbitals represents a pi bond, and any paired electrons represent lone pairs.</li>
+      <li>For example, for sp2 carbon, there are 4 valence electrons. One s orbital and two p orbitals are hybridized to form three sp2 hybrid orbitals. The remaining p orbital forms a pi bond. Finally, one hybrid orbital contains a lone pair of electrons.</li>
+    </ol>
+  </body>
+"
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Lewis Structures:
+Best lewis structure:
+All octets complete (exceptions H, Be, B, Al)
+Maximum number of covalent bonds
+Lowest formal charges on all atoms
+Negative formal charges on most electronegative atoms
+Minimized separation of formal charge (valence e - number of lines and dots attached)
+Organic Atoms, order of more electronegative to least electronegative:
+F, O, N, Cl, Br, I, S,~ C, H
+Foncl brisch.
+
+Common Structures with formal charges:
+Always indicate formal charges. Circle it too.
+Structure of Organic Molecules:
+Alkanes: carbon and hydrogen (hydrocarbons) with single bonds.
+
+Hybrid Orbitals:
+Because every atom has one s and 3 p orbitals (it's usually 2s2 and 2p6, and every 2 electrons goes into one orbital), when having hybridization of:
+sp: There are 2 sp orbitals, giving an s and a p orbital total. This means 2 p orbitals are not being hybridized.
+sp2: There are 3 sp2 orbitals, giving a total of one s, 2 p orbitals. This means 1 p orbital is not being hybridized.
+sp3: There are 4 sp3 orbitals, giving the total of one s, 3 p orbitals.
+
+Determine Hybridization: 
+Use the resonance form in which an atom has the highest order bond. But be careful not to exceed octet around second row atoms!
+
+Saturated Hydrocarbons:
+Methane: 1 carbon
+Ethane: 2 
+Propane: 3
+Butane: 4
+Pentane: 5
+Hexane: 6
+Heptane: 7
+Octane: 8
+Nonane: 9
+Decane: 10
+
+"
+Response: 
+"
+ <body>
+    <h1>Notes on Chemistry Concepts</h1>
+    <h2>Lewis Structures</h2>
+    <ul>
+      <li>The best Lewis structure has all octets complete, the maximum number of covalent bonds, the lowest formal charges on all atoms, negative formal charges on the most electronegative atoms, and minimized separation of formal charge (valence e - number of lines and dots attached).</li>
+      <li>The order of electronegativity for organic atoms is F, O, N, Cl, Br, I, S, C, H (FONClBrISCH).</li>
+      <li>Common structures with formal charges should always indicate the formal charges and circle them.</li>
+    </ul>
+    <h2>Structure of Organic Molecules</h2>
+    <ul>
+      <li>Alkanes are hydrocarbons with single bonds between carbon and hydrogen atoms.</li>
+    </ul>
+    <h2>Hybrid Orbitals</h2>
+    <ul>
+      <li>When an atom undergoes hybridization, it forms new hybrid orbitals from its s and p orbitals.</li>
+      <li>For sp hybridization, there are 2 sp orbitals, giving a total of one s and one p orbital.</li>
+      <li>For sp2 hybridization, there are 3 sp2 orbitals, giving a total of one s and two p orbitals.</li>
+      <li>For sp3 hybridization, there are 4 sp3 orbitals, giving a total of one s and three p orbitals.</li>
+      <li>The hybridization of an atom can be determined by using the resonance form in which the atom has the highest order bond, but care should be taken not to exceed the octet around second-row atoms.</li>
+    </ul>
+    <h2>Saturated Hydrocarbons</h2>
+    <ul>
+      <li>Saturated hydrocarbons are hydrocarbons with only single bonds between carbon atoms.</li>
+      <li>Methane has one carbon atom, ethane has two, propane has three, butane has four, pentane has five, hexane has six, heptane has seven, octane has eight, nonane has nine, and decane has ten.</li>
+    </ul>
+  </body>
+"
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Naming Branched Alkanes:
+Identify the longest continuous parent chain. If tie, choose the longest chain with most substituents (carbon branches not part of the parent chain). Name it (parent chain name) using the above.
+Name alkyl substituents, changing endings from -ane to -yl, or -ine to -oro (substituent name). Number the parent chain in the order that gives the first substituent the lowest number. If substituent numbers are the same, go whichever gives substituent alphabetical order. Assign these locant numbers to the substituents.
+Name each substituent: (locant number)-(substituent name)(parent chain name). EX: 2-methylpropane
+Name whole molecule: (locant number)-(substituent name)1-(locant number)-(substituent name)2-etc-(parent chain name). List substituents alphabetically, and use prefixes di/tri//tetra for repeated substituents (prefixes don't count for alphabetical order). EX: 2-bromo-3-ethyl-4,5-dimethylhexane.
+
+Special Organic Structures:
+
+
+Common names for Alkanes:
+
+
+Functional Groups:
+Don’t name smaller functional groups within a larger one.
+Conformation: Different spatial orientations of molecules.
+Eclipsed: same atoms in line with each other
+Staggered: not in line.
+Staggered -> Eclipsed has positive deltaG, costs energy. Why? More electron-electron repulsion, called steric hindrance.
+Bulkier groups = more steric hindrance.
+Anti Conformation: Bulkiest groups as far apart as possible.
+Gauche Conformation: Bulkiest groups at an angle. Staggered but not as low energy as anti.
+As such, steric hindrance has two types:
+Torsional Strain: from staggered -> eclipse
+Steric Strain: from Gauche (bulky groups) interactions.
+Angle (ring) Strain: deviation from idealized bond angle (sp3 carbon in cyclopropane wants 109.5, but gets 60). Cyclopropane has both torsional and angle strain.
+
+
+"
+Response: 
+"
+<body>
+    <h1>Organic Chemistry Notes</h1>
+    <h2>Naming Branched Alkanes</h2>
+    <ul>
+      <li>Identify the longest continuous parent chain. If there is a tie, choose the longest chain with the most substituents (carbon branches not part of the parent chain). Name it using the above.</li>
+      <li>Name alkyl substituents, changing endings from -ane to -yl, or -ine to -oro (substituent name).</li>
+      <li>Number the parent chain in the order that gives the first substituent the lowest number. If substituent numbers are the same, go whichever gives substituent alphabetical order.</li>
+      <li>Assign these locant numbers to the substituents.</li>
+      <li>Name each substituent: (locant number)-(substituent name)(parent chain name). For example, 2-methylpropane.</li>
+      <li>Name the whole molecule: (locant number)-(substituent name)1-(locant number)-(substituent name)2-etc-(parent chain name).</li>
+      <li>List substituents alphabetically, and use prefixes di/tri/tetra for repeated substituents (prefixes don't count for alphabetical order). For example, 2-bromo-3-ethyl-4,5-dimethylhexane.</li>
+    </ul>
+    <h2>Special Organic Structures</h2>
+    <ul>
+      <li>Common names for Alkanes: methane, ethane, propane, butane, pentane, hexane, heptane, octane, nonane, decane.</li>
+    </ul>
+    <h2>Functional Groups</h2>
+    <ul>
+      <li>Don’t name smaller functional groups within a larger one.</li>
+    </ul>
+    <h2>Conformation</h2>
+    <ul>
+      <li>Different spatial orientations of molecules.</li>
+      <li>Eclipsed: same atoms in line with each other.</li>
+      <li>Staggered: not in line.</li>
+      <li>Staggered -> Eclipsed has positive deltaG, costs energy. Why? More electron-electron repulsion, called steric hindrance.</li>
+      <li>Bulkier groups = more steric hindrance.</li>
+      <li>Anti Conformation: Bulkiest groups as far apart as possible.</li>
+      <li>Gauche Conformation: Bulkiest groups at an angle. Staggered but not as low energy as anti.</li>
+      <li>As such, steric hindrance has two types:</li>
+      <li>Torsional Strain: from staggered -> eclipse</li>
+      <li>Steric Strain: from Gauche (bulky groups) interactions.</li>
+      <li>Angle (ring) Strain: deviation from idealized bond angle (sp3 carbon in cyclopropane wants 109.5, but gets 60). Cyclopropane has both torsional and angle strain.</li>
+    </ul>
+  </body>
+"
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Naming Cycloalkanes:
+In a molecule with chains and rings, the cycloalkane is always the main branch (unless chain has more carbon than the ring)
+If the Cycloalkane has a substituent:
+Define carbon of attachment as C1 for the locant number. Make it the lowest possible. (If cycloalkane uses a special name based on its functional group, C1 should be on that group). Then number the rest of the ring. 
+Priority is as follows: 
+COOH
+COOH derivatives
+ Groups with O or N
+Alkenes/Alkynes (double/triple bonds)
+Regular old alkyl groups
+If there is a tie for first, and both substituents are alkyl, go with alphabetical order. If tied between alkyl and halo groups (which have equivalent priorities), make it so that substituents have lowest locant numbers.
+If the Cycloalkane is the substituent:
+Change Cycloalkane to Cycloalkyl.
+If two Cycloalkanes are stereoisomers (differ by special arrangement of substituents):
+Name it cis or trans, depending on if the substituents are on the same or opposite sides.
+
+EX:
+
+Cyclohexane.
+
+Rings with only 3 or 4 atoms are higher in energy. Cyclopropane is the largest ring that is still planar, and thus it is the highest in energy (electron pairs from C-C too close!)
+
+"
+Response: 
+"
+<body>
+    <h1>Notes on Naming Cycloalkanes</h1>
+    <h2>When Cycloalkane is the Main Branch</h2>
+    <ul>
+      <li>In a molecule with both chains and rings, the cycloalkane is always the main branch, unless the chain has more carbons than the ring.</li>
+    </ul>
+    <h2>When Cycloalkane has a Substituent</h2>
+    <ul>
+      <li>Define the carbon of attachment as C1 and make it the lowest possible number.</li>
+      <li>If the cycloalkane uses a special name based on its functional group, C1 should be on that group.</li>
+      <li>Number the rest of the ring in a clockwise or counterclockwise direction.</li>
+      <li>Use the following priority order for naming the substituents: COOH, COOH derivatives, groups with O or N, alkenes/alkynes, and regular alkyl groups.</li>
+      <li>If there is a tie for first, and both substituents are alkyl, go with alphabetical order.</li>
+      <li>If there is a tie between alkyl and halo groups (which have equivalent priorities), make it so that substituents have the lowest locant numbers.</li>
+    </ul>
+    <h2>When Cycloalkane is the Substituent</h2>
+    <ul>
+      <li>Change the name of the cycloalkane to "cycloalkyl".</li>
+    </ul>
+    <h2>When Two Cycloalkanes are Stereoisomers</h2>
+    <ul>
+      <li>If the two cycloalkanes differ by a special arrangement of substituents, name them cis or trans, depending on if the substituents are on the same or opposite sides.</li>
+    </ul>
+    <h2>Examples of Naming Cycloalkanes</h2>
+    <ul>
+      <li>Cyclohexane.</li>
+      <li>Rings with only 3 or 4 atoms are higher in energy.</li>
+      <li>Cyclopropane is the largest ring that is still planar, and thus it is the highest in energy (electron pairs from C-C too close!).</li>
+    </ul>
+  </body>
+"
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Carbon Chair and Flips:
+Draw carbon baseline chair: parallelogram leaned to the left + triangles aligned with both sides.
+Add axial hydrogens. If carbon point down, its hydrogen point straight down. Up -> up.
+Add equatorial hydrogens. Visualize a tetrahedral, and try to complete it with the equatorial hydrogen. Little trick: angle of equatorial hydrogen is parallel to C-C bond “one over” (not adjacent). 
+Tip: dashes on down carbons are axial, wedge is equatorial.
+Tip: dashes on up carbons are equatorial, wedge is axial.
+This makes sense because a dashed line means a group is pointing away from you, into the paper. Thus, looking at the chair from the side, it must be pointing down. Axial groups on down carbons will be pointing down. From drawing the equatorial bonds, you know which carbons have equatorial bonds that are down or up- thus, given dashed or wedged line, you know exactly whether to put it on axial or equatorial.
+Flipping:
+
+Substituents will move 1 carbon clockwise, when flipping A to B. Goes counterclockwise when B to A.
+Flip carbon baseline chair upside down: parallelogram leaned right + triangles aligned with both sides.
+As such, each “up” carbon will become “down” and vise versa.
+As such, because the groups still keep their dashed or wedged conformation, they still try to point up or down. Thus, given the positions of the equatorial/axial bonds in chair flip, the groups will change from equatorial to axial.
+Another method: just choose carbon #1 as a down carbon instead of an up carbon.
+Number the carbons in the same direction as you did, but have #1 carbon be flipped, as above.
+
+"
+Response: 
+"
+<body>
+    <h1>Notes on Carbon Chair Conformations and Flips</h1>
+    <h2>Carbon Chair Conformations</h2>
+    <ul>
+      <li>To draw the baseline of a carbon chair, draw a parallelogram leaned to the left with triangles aligned with both sides.</li>
+      <li>Add axial hydrogens to the carbon chair. If the carbon points down, its hydrogen points straight down. If the carbon points up, its hydrogen points straight up.</li>
+      <li>To add equatorial hydrogens, visualize a tetrahedron and try to complete it with the equatorial hydrogen. The angle of the equatorial hydrogen is parallel to the C-C bond "one over" (not adjacent).</li>
+      <li>A dashed line on a down carbon represents an axial bond, while a wedge represents an equatorial bond. For up carbons, a dashed line represents an equatorial bond and a wedge represents an axial bond. This is because a dashed line means a group is pointing away from you, into the paper. Thus, looking at the chair from the side, it must be pointing down. Axial groups on down carbons will be pointing down. From drawing the equatorial bonds, you know which carbons have equatorial bonds that are down or up. Therefore, given a dashed or wedged line, you know exactly whether to put it on axial or equatorial.</li>
+    </ul>
+    <h2>Flipping Carbon Chairs</h2>
+    <ul>
+      <li>When flipping from chair A to chair B, substituents will move one carbon clockwise. The movement goes counterclockwise when flipping from chair B to chair A.</li>
+      <li>To flip a carbon chair, flip the chair's baseline upside down: a parallelogram leaned to the right with triangles aligned with both sides.</li>
+      <li>Each "up" carbon will become "down," and vice versa.</li>
+      <li>Because the groups still keep their dashed or wedged conformation, they still try to point up or down. Thus, given the positions of the equatorial/axial bonds in the chair flip, the groups will change from equatorial to axial.</li>
+      <li>Another method to flip a carbon chair is to choose carbon #1 as a down carbon instead of an up carbon. Number the carbons in the same direction as before, but have carbon #1 be flipped.</li>
+    </ul>
+  </body>
+"
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Substituents:
+Equatorial placement of highest strain group is more stable than axial placement. For cyclohexane chairs, its called 1,3-diaxial interactions.
+
+
+
+Special Resonance Scenarios:
+Lone pair adjacent to pi bond: 
+
+Lone pair adjacent to carbonyl:
+
+Notice how we always push away from negative formal charges.
+Positive formal charge adjacent to double bond:
+
+Positive formal charge adjacent to atom w lone pair:
+
+Notice how we always push towards positive formal charges.
+NEVER push towards/away from sp3 carbon!
+
+Low-contributing Resonance Contributors:
+Halogen has positive formal charge.
+Two carbon atoms bear opposite formal charges
+Period 2 atom exceeding octet, or +2 or -2 formal charges
+Don’t make electronegative atoms have incomplete octets (positive formal charge)
+
+Conjugation:
+Allylic system: 3 carbon chain with 1 pi bond. Simplest example of conjugation: 3 or more adjacent pi orbitals are co-planar with each other.
+
+Conjugation increases resonance. Resonance increases stability (less energy released upon burning)
+
+Supported by the fact that there are intermediate bond lengths.
+Supported by the fact that barrier to rotation between s-cis and s-trans is higher than usual. Even though s-trans more stable than s-cis, Conjugation is temporarily destroyed in order to rotate to the trans side (pi bonds wont be planar)
+
+Fact: Visible spectroscopy: 400-800 nm (see colors), Ultraviolet spectroscopy: 200-400 nm (see white/clear)
+
+As the number of conjugated bonds increases, the wavelength of absorption increases. By means you will see the complementary color.
+
+"
+Response: 
+"
+  <body>
+    <h1>Notes on Organic Chemistry</h1>
+    <h2>Substituents and Strain</h2>
+    <ul>
+      <li>Equatorial placement of a high strain group is more stable than axial placement.</li>
+      <li>For cyclohexane chairs, this is referred to as 1,3-diaxial interactions.</li>
+    </ul>
+    <h2>Special Resonance Scenarios</h2>
+    <ul>
+      <li>Lone pairs adjacent to pi bonds are stabilized through resonance.</li>
+      <li>Lone pairs adjacent to carbonyl groups are also stabilized through resonance.</li>
+      <li>Positive formal charges adjacent to double bonds are stabilized through resonance.</li>
+      <li>Positive formal charges adjacent to atoms with lone pairs are also stabilized through resonance.</li>
+      <li>Never push towards or away from sp3 carbon!</li>
+      <li>Low-contributing resonance contributors include cases where a halogen has a positive formal charge, two carbon atoms bear opposite formal charges, and period 2 atoms exceed their octet or have +2 or -2 formal charges.</li>
+      <li>Do not make electronegative atoms have incomplete octets (positive formal charge).</li>
+    </ul>
+    <h2>Conjugation and Stability</h2>
+    <ul>
+      <li>An allylic system is a 3-carbon chain with 1 pi bond and is the simplest example of conjugation.</li>
+      <li>Conjugation increases resonance, and resonance increases stability (less energy is released upon burning).</li>
+      <li>There are intermediate bond lengths in conjugated molecules.</li>
+      <li>The barrier to rotation between s-cis and s-trans is higher than usual, and although s-trans is more stable than s-cis, conjugation is temporarily destroyed to rotate to the trans side (pi bonds won't be planar).</li>
+      <li>In visible spectroscopy, the range is 400-800 nm (you can see colors), and in ultraviolet spectroscopy, the range is 200-400 nm (you see white/clear).</li>
+      <li>As the number of conjugated bonds increases, the wavelength of absorption increases, which means you will see the complementary color.</li>
+    </ul>
+  </body>
+" 
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Substituted Benzene Nomenclature:
+Ortho: 1, 2
+Meta: 1, 3
+Para: 1, 4
+
+Aromatic Criteria:
+Must be cyclic
+Must be planar
+Must be conjugated throughout ring (no sp3 carbons)
+Must contain (4n+2) pi electrons, where n is a whole nonzero integer.
+
+Antiaromatic Criteria:
+Same first 3 criteria
+Must contain (4n) pi electrons.
+
+Nonaromatic Criteria:
+Violating one of the 4 from aromatic.
+Nonaromatic is more stable than antiaromatic (same number of carbon atoms)
+
+Some aromatic ions can satisfy Huckel rule, if they have resonance. How? Delocalized lone pair means effectively sp2 hybridization = effectively trigonal planar and conjugation.
+
+Same for some heterocycles. (N, O, or S replace carbon in the ring).
+
+Annulenes: monocyclic structures with alternating single/double bonds throughout entire ring.
+[8]-annulene is a puckered conformation
+[10]-annulene is slight puckered as well, not enough room in middle for 2 hydrogens.
+
+"
+Response: 
+"
+  <body>
+    <h1>Notes on Aromaticity</h1>
+    <h2>Substituted Benzene Nomenclature</h2>
+    <ul>
+      <li>Ortho refers to the 1, 2 positions of a substituted benzene ring.</li>
+      <li>Meta refers to the 1, 3 positions of a substituted benzene ring.</li>
+      <li>Para refers to the 1, 4 positions of a substituted benzene ring.</li>
+    </ul>
+    <h2>Aromatic Criteria</h2>
+    <ul>
+      <li>A molecule must be cyclic to be aromatic.</li>
+      <li>The molecule must be planar to be aromatic.</li>
+      <li>All atoms in the ring must be sp2 hybridized and conjugated to be aromatic.</li>
+      <li>The molecule must contain (4n+2) pi electrons, where n is a whole nonzero integer, to be aromatic.</li>
+    </ul>
+    <h2>Antiaromatic Criteria</h2>
+    <ul>
+      <li>Antiaromatic molecules must meet the first three criteria of aromaticity.</li>
+      <li>The molecule must contain (4n) pi electrons to be antiaromatic.</li>
+    </ul>
+    <h2>Nonaromatic Criteria</h2>
+    <ul>
+      <li>Nonaromatic molecules violate one of the four criteria for aromaticity.</li>
+      <li>Nonaromatic molecules are more stable than antiaromatic molecules of the same size.</li>
+    </ul>
+    <h2>Aromatic Ions and Heterocycles</h2>
+    <ul>
+      <li>Aromatic ions can satisfy the Hückel rule if they have resonance, which effectively leads to sp2 hybridization and conjugation.</li>
+      <li>Some heterocycles (where N, O, or S replaces a carbon in the ring) can be aromatic if they satisfy the criteria for aromaticity.</li>
+    </ul>
+    <h2>Annulenes</h2>
+    <ul>
+      <li>Annulenes are monocyclic structures with alternating single and double bonds throughout the entire ring.</li>
+      <li>The [8]-annulene adopts a puckered conformation.</li>
+      <li>The [10]-annulene is slightly puckered as there is not enough room in the middle for two hydrogens.</li>
+    </ul>
+  </body>
+" 
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Resonance in heterocycles:
+If atom contains just one lone pair, you can delocalize it.
+If atom contains lone pair and pi bond, only move the pi bond, not the lone pair.
+What this ^ means: in heteroatoms doubly bonded to a ring member (see pyridine), the lone pair will be sp2 and not participate in resonance.
+sp3 atoms with 4 bonds wont participate in resonance. 
+Heteroatoms with multiple lone pairs will only contribute one. Thus, if oxygen has 2 lone pairs and 2 bonds, one lone pair must be delocalized.
+
+
+
+Polycyclic Benzenoid Hydrocarbons:
+Fusion of two benzenes. Linear and angular.
+Contain 4n + 2 pi electrons (Huckel rule)
+Clar’s rule: full electron sextects are “good” for resonance.
+
+
+"
+Response: 
+"
+<h1> Resonance in heterocycles </h1>
+<ul>
+  <li> If an atom contains just one lone pair, it can be delocalized. </li>
+  <li> If an atom contains a lone pair and a pi bond, only the pi bond can be moved, not the lone pair. </li>
+  <li> In heteroatoms doubly bonded to a ring member, the lone pair will be sp2 and not participate in resonance. </li>
+  <li> sp3 atoms with 4 bonds won't participate in resonance. </li>
+  <li> Heteroatoms with multiple lone pairs will only contribute one. Thus, if oxygen has 2 lone pairs and 2 bonds, one lone pair must be delocalized. </li>
+</ul>
+<h1> Polycyclic Benzenoid Hydrocarbons </h1>
+<ul>
+  <li> Fusion of two benzenes, linear and angular. </li>
+  <li> Contain 4n + 2 pi electrons (Huckel rule). </li>
+  <li> Clar's rule: full electron sextets are "good" for resonance. </li>
+</ul>
+" 
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+My trip:
+need to grab breakfast and lunch before
+need to pack luggage and snacks, and check travel list
+Call mom? Or not, not sure.
+Remember pump tires too
+"
+Response: 
+"
+  <body>
+    <h1>My Trip</h1>
+    <h2>Preparations</h2>
+    <ul>
+      <li>Grab breakfast and lunch before leaving for the trip.</li>
+      <li>Pack luggage and snacks, and check the travel list to ensure nothing is forgotten.</li>
+      <li>Remember to pump the tires of the car.</li>
+      <li>Decide whether to call mom or not, as it is not clear.</li>
+    </ul>
+  </body>
+" 
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Stereoisomers: differ in spatial orientation. Two stereoisomers are called enantiomers.
+Diasteromers: Not related as image and mirror image. Cis/trans are examples of this.
+Enantiomers: image and mirror image are not superimposable.
+These lack reflection symmetry, and are called chiral (Greek’s chier=hand). Achiral thus means it is symmetric (in any conformation, including if you rotate it).
+Most are due to stereocenters (stereogenic center/chiral center/asymmetric carbon)- central carbon with 4 unique atoms attached.
+As such, if the stereocenter can be cut symmetrically, it is achiral. 
+If the regular image, + enantiomer is used, light will be polarized to one plane and rotated clockwise.
+If the mirror image, - enantiomer is used, light will be polarized to one plane and rotated counterclockwise.
+Achiral is optically inactive. Also, racemic mixture (50-50 regular + mirror) is optically inactive. 
+Optically active stereoisomers: only way to tell them apart. 
+Finding absolute configuration of isomer: cahn-ingold-R,S-nomenclature.
+Label all substituents according to decreasing priority (highest atomic number first).
+For a substituent, rank the atoms in it according to priority. Then compare the ranks of the priorities for all the substituents, and rank the substituents themselves.
+Look down the C-d bond (d in back), if a,b,c clockwise: R. if a,b,c counterclockwise: S.
+If same priority at first atom, go at first point of difference. An -isopropyl group will beat an -ethyl group in priority.
+If multiple bonds, treat as multiple atoms. You want each atom with a double bond to get its own extra atom for itself.
+Now, have the d group in the back, and go a-b-c, find out if clockwise or counterclockwise.
+Shortcut: If d is dashed, assign R/S as is. If d is wedged, its actually the opposite as you see it (you looking at the molecule from the back).
+When filling in the H’s, never separate a wedge and a dash
+For comparing long chains, start both at the first point of contact, then move to the highest priority group for the next comparison. If you get stuck in a tie, try the second highest priority group for the next comparison.
+When working with a stereocenter that's part of a ring: bisect the ring with a line cutting through the stereocenter. There must be 4 things attached: the wedged HO, a newly drawn dashed H, and from walking around the ring from the bottom a CH2-CH2, and from walking around the ring from the top a CH2-CHCH3. Then, you have your stereocenter.
+
+"
+Response: 
+"
+<body>
+<h1>Stereoisomers</h1>
+<p>Stereoisomers are isomers that differ in spatial orientation. Two stereoisomers are called enantiomers. Stereoisomers that are not related as image and mirror image are called diastereomers.</p>
+<h2>Enantiomers</h2>
+<p>Enantiomers lack reflection symmetry, and are called chiral (Greek’s chier=hand). Achiral means that it is symmetric (in any conformation, including if you rotate it). Most enantiomers are due to stereocenters (stereogenic center/chiral center/asymmetric carbon)- central carbon with 4 unique atoms attached. As such, if the stereocenter can be cut symmetrically, it is achiral.</p>
+<h3>Optical Activity</h3>
+<p>If the regular image (+ enantiomer) is used, light will be polarized to one plane and rotated clockwise. If the mirror image (- enantiomer) is used, light will be polarized to one plane and rotated counterclockwise. Achiral is optically inactive. A racemic mixture (50-50 regular + mirror) is optically inactive. Optically active stereoisomers are the only way to tell them apart.</p>
+<h3>Finding Absolute Configuration of Isomer</h3>
+<p>For finding the absolute configuration of an isomer, the Cahn-Ingold-Prelog (R,S) nomenclature is used. Label all substituents according to decreasing priority (highest atomic number first). Then, compare the ranks of the priorities for all the substituents and rank the substituents themselves. Look down the C-d bond (d in back), if a,b,c are clockwise, it is R. If a,b,c are counterclockwise, it is S. If the same priority is assigned at the first atom, go to the first point of difference. An -isopropyl group will beat an -ethyl group in priority. If there are multiple bonds, treat them as multiple atoms.</p>
+<h3>Stereoisomers in a Ring</h3>
+<p>When working with a stereocenter that's part of a ring, bisect the ring with a line cutting through the stereocenter. There must be 4 things attached: the wedged HO, a newly drawn dashed H, and from walking around the ring from the bottom a CH2-CH2, and from walking around the ring from the top a CH2-CHCH3. Then, you have your stereocenter.</p>
+</body>
+" 
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Fischer Projections:
+Stereocenters are the intersection of crossed lines.
+Horizontal line: wedged bond (above plane of paper)
+Vertical line: dashed bond (below plane of paper)
+Easy to see plane of symmetry
+Easy to see R/S config: simply follow the abc clockwise/counterclockwise, then look at d to see if you should reverse this or not.
+
+"
+Response: 
+"
+  <body>
+    <h1>Notes on Fischer Projections</h1>
+    <h2>Stereocenters in Fischer Projections</h2>
+    <ul>
+      <li>Stereocenters are represented by the intersection of crossed lines in Fischer projections.</li>
+    </ul>
+    <h2>Bond Representation in Fischer Projections</h2>
+    <ul>
+      <li>A horizontal line represents a wedged bond that projects above the plane of the paper.</li>
+      <li>A vertical line represents a dashed bond that projects below the plane of the paper.</li>
+    </ul>
+    <h2>Identifying Plane of Symmetry</h2>
+    <ul>
+      <li>Fischer projections make it easy to identify a plane of symmetry in a molecule.</li>
+    </ul>
+    <h2>Determining R/S Configuration</h2>
+    <ul>
+      <li>Following the abc priorities clockwise or counterclockwise in a Fischer projection and looking at the d group allows one to determine the R/S configuration of a stereocenter.</li>
+      <li>If the d group is on a wedged bond, the configuration is the same as the priority order.</li>
+      <li>If the d group is on a dashed bond, the configuration is reversed from the priority order.</li>
+    </ul>
+  </body>
+" 
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Molecules with more than one stereocenter:
+Max number of stereoisomers is 2n. N is number of stereocenters.
+Given some stereoisomers, you can pair them into enantiomers (mirror images of another, can’t be easily separated). 
+Relationship between different pairs is called diastereomers- same connectivity, not mirror images, can be separated due to different properties.
+In two identials, the R/S config will be the same.
+In two enantiomers, the R/S config of the stereocenters will invert.
+In two diastereomers, one of the R/S config of the stereocenters will invert (at least 1, but not all).
+But look for plane of symmetry, if so its not enantiomer, its meso-identicals.
+
+
+EX:
+Meso compound: has 2 chiral carbons BUT has a plane of symmetry.
+You can have a MAX of 4 stereoisomers, but meso compound only has 3. Meso compounds are still mirror images of one another, but due to the plane of symmetry you can superimpose them. It often requires rotating a pair of single bonds though. One pair of enantiomers is not only mirror images, but also identical images. In a meso compound, the stereocenters have to be identically substituted yet opposite in R/S configuration.
+Thus, if you see a compound which is mirror image, yet stereocenters have same groups- it could be meso or just enantiomers. Find the symmetry plane, or just go with R/S configurations.
+
+"
+Response: 
+"
+<body>
+<h1>Notes on Molecules with Multiple Stereocenters</h1>
+<h2>Max Number of Stereoisomers</h2>
+<p>The maximum number of stereoisomers in a molecule is 2n, where n is the number of stereocenters.</p>
+<h2>Enantiomers and Diastereomers</h2>
+<p>If a molecule has stereoisomers, they can be paired into enantiomers (mirror images that cannot be easily separated) or diastereomers (same connectivity but not mirror images, can be separated due to different properties). If two stereoisomers are identical, their R/S configuration will be the same. If two stereoisomers are enantiomers, the R/S configuration of the stereocenters will invert. In two diastereomers, at least one R/S configuration of the stereocenters will invert (but not all). </p>
+<h2>Meso Compounds</h2>
+<p>A meso compound is a molecule with two chiral carbons but has a plane of symmetry. Such a compound can have a maximum of four stereoisomers, but a meso compound only has three. Meso compounds are still mirror images of each other, but they can be superimposed due to the plane of symmetry. Thus, one pair of enantiomers is not only mirror images, but also identical images. The stereocenters in a meso compound have to be identically substituted yet opposite in R/S configuration.</p>
+<h3>Identifying Meso Compounds</h3>
+<p>If you see a compound that is a mirror image, yet the stereocenters have the same groups, it could be a meso compound or just enantiomers. Find the symmetry plane, or just go with R/S configurations.</p>
+</body>
+" 
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Relationship between two fischer projections: you can either find R/S configurations, or:
+Compare the first stereocenter in each:
+
+When switching, odd number means enantiomers, while even mumber means identical
+If top and bottom identical, they are identical. If top and bottom 1 switch each, they are enantiomers. If there is a discrepancy, they are diastereomers.
+
+"
+Response: 
+"
+  <body>
+    <h1>Notes on Fischer Projections</h1>
+    <h2>Relationship between Two Fischer Projections</h2>
+    <p>When comparing two Fischer projections, you can either find R/S configurations or use the following method:</p>
+    <ul>
+      <li>Compare the first stereocenter in each Fischer projection.</li>
+      <li>If the two Fischer projections have an odd number of switches between them, they are enantiomers.</li>
+      <li>If the two Fischer projections have an even number of switches between them, they are identical.</li>
+      <li>If the top and bottom of the Fischer projections are identical, they are identical.</li>
+      <li>If the top and bottom of the Fischer projections differ by one switch, they are enantiomers.</li>
+      <li>If there is a discrepancy in the number of switches, the two Fischer projections are diastereomers.</li>
+    </ul>
+  </body>
+" 
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Manipulating Fischer Projections (make identicals):
+Rotate by 180 degrees. Simply flip entire projection upside down.
+Hold 1 group constant, rotate the other 3 like a clock. 
+Flip 2 groups (not directly across from another) an even number of times.
+
+Manipulating Fischer Projections (make enantiomers):
+Rotating 90 degrees (if you think about it, its just like doing 3 flips (an odd number of flips = enantiomer)
+Flipping two groups (not directly across from another) an odd number of times.
+Flipping all groups across from another. If you only flip some groups, its diastereomer. 
+
+"
+Response: 
+"
+<body>
+<h1>Manipulating Fischer Projections</h1>
+<h2>Make Identicals</h2>
+<ul>
+  <li>Rotate by 180 degrees. Simply flip entire projection upside down.</li>
+  <li>Hold 1 group constant, rotate the other 3 like a clock.</li>
+  <li>Flip 2 groups (not directly across from another) an even number of times.</li>
+</ul>
+<h2>Make Enantiomers</h2>
+<ul>
+  <li>Rotating 90 degrees (if you think about it, it's just like doing 3 flips (an odd number of flips = enantiomer).</li>
+  <li>Flipping two groups (not directly across from another) an odd number of times.</li>
+  <li>Flipping all groups across from another. If you only flip some groups, it's diastereomer.</li>
+</ul>
+</body>
+" 
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Midterm 1 Study Guide
+
+
+Carbohydrate:
+Fits the formula Cn(H2O)n “hydrated carbon”
+Epimer: specific type of diasteromer, differs in exactly 1 stereocenter.
+
+Naming:
+Simplest carbs are sugars/saccharides. 
+Either aldoses (have an aldehyde group) or ketoses (have an ketone group).
+They form oligomers by ether bridges
+Notice: aldo or keto, then triose for 3 carbon chain.
+Glucose and fructose are constitutional isomers with 4 stereocenters, but glucose is aldohexose, fructose is ketohexose!! Ribose is aldopentose/3 stereocenters.
+New stereocenter naming: D is R (+), L is S (-)
+Most common natural config is D.
+How to name a whole molecule? Simply look at stereocenter farthest from Carboneal (CHO), and name it. Easy shortcut: D: OH pointing to the right. L: OH pointing to the left..
+
+"
+Response: 
+"
+<body>
+<h1>Midterm 1 Study Guide</h1>
+<h2>Carbohydrate:</h2>
+<p>A carbohydrate is a molecule consisting of carbon (C), hydrogen (H), and oxygen (O) atoms. They fit the formula Cn(H2O)n which is often referred to as "hydrated carbon".</p>
+<h3>Epimer:</h3>
+<p>An epimer is a specific type of diasteromer that differs in exactly 1 stereocenter.</p>
+<h2>Naming:</h2>
+<p>The simplest carbohydrates are sugars/saccharides. They can either be aldoses (have an aldehyde group) or ketoses (have a ketone group). They form oligomers by ether bridges.</p>
+<h3>Stereocenter naming:</h3>
+<p>Glucose and fructose are constitutional isomers with 4 stereocenters, but glucose is aldohexose, and fructose is ketohexose. Ribose is aldopentose with 3 stereocenters. The most common natural configuration is D. To name a whole molecule, simply look at the stereocenter farthest from the carbonyl group (CHO) and name it. An easy shortcut is that D has OH pointing to the right, and L has OH pointing to the left.</p>
+</body>
+" 
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Cyclization:
+Turn fischer into cyclic: the OH group on the second to last carbon attaches to the top CHO, and resonance occurs, making a .
+Notice, the original CHO (c1) became a new stereocenter- it becomes anomeric carbon.
+Next, groups on the right side of fischer point down, groups on the left point up. “Thats downright uplifting!” -> “down-right, up-lefting”.
+Next, the C6 group (CH2OH) can either be top or bottom, depending on the D or L of the sugar. D6T, L6B. Its opposite for L sugars. Think of that C5-C6 bond rotating so that OH can meet with Carbonyl. Its just the opposite of where the OH on C5 would have gone.
+Finally, the H-OH groups on the original CHO (c1) anomeric carbon can be: either OH up (beta… bird.. up), or OH down (alpha… looks like fish.. down). Its opposite for L sugars.
+"
+Response: 
+"
+<body>
+<h1>Cyclization of Fischer Projections</h1>
+<h2>Overview</h2>
+
+<p>Cyclization is a process by which a Fischer projection is transformed into a cyclic molecule.</p>
+
+<h2>The Cyclization Process</h2>
+
+<p>To cyclize a Fischer projection, the hydroxyl (OH) group on the second to last carbon attaches to the top CHO group, causing resonance to occur and resulting in a new stereocenter, the anomeric carbon (c1). The groups on the right side of the Fischer projection point down, while the groups on the left side point up. This is remembered with the phrase "down-right, up-lefting."</p>
+
+<p>The C6 group (CH2OH) can either be located on the top or bottom of the cyclic molecule, depending on whether the sugar is a D or L sugar. For D-sugars, it is D6T, while for L-sugars, it is L6B. The position of C6 is opposite for L-sugars. The OH on C5 rotates so that it can meet with the carbonyl, and this determines the position of C6.</p>
+
+<p>The H-OH groups on the original CHO anomeric carbon can either be up (beta) or down (alpha), with the former being remembered as "beta... bird... up," and the latter as "alpha... looks like fish... down." The opposite applies to L-sugars.</p>
+
+<h2>Conclusion</h2>
+
+<p>Cyclization of Fischer projections involves attaching the hydroxyl group on the second to last carbon to the top CHO group, creating a new stereocenter at the anomeric carbon. The resulting molecule has a position for the C6 group and the H-OH groups on the CHO anomeric carbon that depends on whether the sugar is a D or L sugar.</p>
+</body>
+" 
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Disaccharides:
+Table sugar: glucose + furanose flipped 180.
+alpha/beta number -> number glycosidic linkage.
+alpha/beta is of the left group, number -> number describes which carbons are linked.
+Acetal group: the dissacharide will not undergo mutarotation (nonreducing sugar).
+What does acetal/hemiacetal look like, and what does acetal or hemiacetal anomeric carbon imply? →Acetal: carbon bonded to two OR groups. Hemiacetal: carbon bonded to an OR group and OH group. Acetal anomeric carbon: it cannot get oxidized, and thus is nonreducing sugar. Hemiacetal anomeric carbon: it can get oxidized, and thus is reducing sugar.
+
+"
+Response: 
+"
+<body>
+<h1>Disaccharides</h1>
+<h2>Table sugar</h2>
+<p>Table sugar is composed of glucose and furanose flipped 180 degrees.</p>
+<p>alpha/beta number -> number glycosidic linkage. Alpha/beta is of the left group, number -> number describes which carbons are linked.</p>
+<h2>Acetal group</h2>
+<p>The dissacharide will not undergo mutarotation (nonreducing sugar).</p>
+<p>What does acetal/hemiacetal look like, and what does acetal or hemiacetal anomeric carbon imply?</p>
+<ul>
+  <li>Acetal: carbon bonded to two OR groups.</li>
+  <li>Hemiacetal: carbon bonded to an OR group and OH group.</li>
+  <li>Acetal anomeric carbon: it cannot get oxidized, and thus is nonreducing sugar.</li>
+  <li>Hemiacetal anomeric carbon: it can get oxidized, and thus is reducing sugar.</li>
+</ul>
+</body>
+" 
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+IR Spectroscopy:
+Amount of energy absorbed only depends on the change in dipole moment. 
+Larger change dipole moment -> More energy absorbed -> stronger absorption peaks.
+Nonpolar bond -> no change in dipole -> no energy absorbed.
+The more polar -> stronger peak
+New equations: . Wavenumber is basically like frequency.
+Notice that E and wavenumber increase by the same amount (lamda wavelength on the bottom)
+Hook’s Law: wavenumber=(hook’s constant)*(F)/(greek letter Mu)
+F is the strength of the bond (increases with frequency)
+Mu is the atomic mass of the atom (decreases with frequency)
+
+"
+Response: 
+"
+  <body>
+    <h1>IR Spectroscopy</h1>
+    <ul>
+      <li>Amount of energy absorbed only depends on the change in dipole moment.</li>
+      <li>Larger change in dipole moment results in more energy absorbed and stronger absorption peaks.</li>
+      <li>Nonpolar bond results in no change in dipole and no energy absorbed.</li>
+      <li>The more polar a bond is, the stronger the peak.</li>
+    </ul>
+    <h2>New Equations</h2>
+    <ul>
+      <li>Wavenumber is basically like frequency.</li>
+      <li>Notice that energy and wavenumber increase by the same amount (lambda wavelength on the bottom).</li>
+      <li>Hook's Law: wavenumber = (Hook's constant) * (F) / (Greek letter Mu)</li>
+      <li>F is the strength of the bond (increases with frequency).</li>
+      <li>Mu is the atomic mass of the atom (decreases with frequency).</li>
+    </ul>
+  </body>
+" 
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+IR Spectroscopy:
+4 Zones, left to right (high to low wavenumber)
+Zone 1: lightest atoms: N/O/C-H. 3600-2800 wavenumbers (COOH, OH, NH, CH)
+Zone 2: strongest bonds: CtripleC, CtripleN. 2300-2100 wavenumbers (Alkynes, Nitriles)
+Zone 3: medium bonds: C=N,C=C,C=O. 1850-1600 wavenumbers (carbonyls, alkenes, benzene)
+Zone 4: weakest bonds: C-C, C-O, C-N. <1400 wavenumbers (Carbon-Halo bonds)
+“Broad signal”: by OH, compared to C-H sharp peaks.
+Why? Hydrogen bonding. H is in a tug of war between OH of one group and OH of another identical. Thus, its bond length (and thus strength) varies, giving rise to broad peaks.
+RNH2: twin peaks, primary amine
+R2NH: single peak, secondary amine
+R3N: no peak (no N-H bond), tertiary amine
+The C-H bond in O=C-H (aldehyde): very sensitive, two new peaks with lower wavenumber than regular sp3 C-H bond.
+C=O: 1600-1800 wavenumbers, most amplitude.
+C=C and CtripleC are environment-dependent- it really matters what other atoms surround that double bond.
+C-C stretching in aromatic ring (like benzene): 3 peaks, 1600, 1500, 1400
+Jagged small peaks around 2000: specific to benzene, overtones.
+Zone 4 (less than 1400 wavenumber): C-Z bonds (X, O, N)
+
+"
+Response: 
+"
+<body>
+<h1>IR Spectroscopy</h1>
+<h2>Four Zones</h2>
+<ul>
+  <li>Zone 1 (3600-2800 wavenumbers): lightest atoms - N/O/C-H (COOH, OH, NH, CH)</li>
+  <li>Zone 2 (2300-2100 wavenumbers): strongest bonds - CtripleC, CtripleN (Alkynes, Nitriles)</li>
+  <li>Zone 3 (1850-1600 wavenumbers): medium bonds - C=N, C=C, C=O (carbonyls, alkenes, benzene)</li>
+  <li>Zone 4 (<1400 wavenumbers): weakest bonds - C-C, C-O, C-N (Carbon-Halo bonds)</li>
+</ul>
+<h2>Broad Signal and Hydrogen Bonding</h2>
+<p>"Broad signal" caused by OH compared to C-H sharp peaks. This is due to hydrogen bonding. The H is in a tug of war between OH of one group and OH of another identical group. This results in variation in bond length (and thus strength), giving rise to broad peaks.</p>
+<h2>Ammonia Peaks</h2>
+<ul>
+  <li>RNH2: twin peaks, primary amine</li>
+  <li>R2NH: single peak, secondary amine</li>
+  <li>R3N: no peak (no N-H bond), tertiary amine</li>
+</ul>
+<h2>Aldehydes and C=O</h2>
+<p>The C-H bond in O=C-H (aldehyde) is very sensitive. It produces two new peaks with lower wavenumber than regular sp3 C-H bond. C=O has the most amplitude, with a range of 1600-1800 wavenumbers.</p>
+<h2>Environment-dependent C=C and CtripleC</h2>
+<p>The C=C and CtripleC bonds are environment-dependent. It really matters what other atoms surround that double bond.</p>
+<h2>Aromatic Ring and Benzene</h2>
+<p>C-C stretching in aromatic ring (like benzene) produces three peaks at 1600, 1500, and 1400 wavenumbers. Jagged small peaks around 2000 are specific to benzene and overtones.</p>
+<h2>Zone 4</h2>
+<p>Zone 4 (<1400 wavenumbers) includes C-Z bonds (X, O, N).</p>
+</body>
+" 
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+IR Spectroscopy:
+Conjugation in IR: For a pi bond, it decreases wavelength (decreases pi bond character, weaker bond). For a sigma bond, it increases wavelength (increases pi bond character, stronger bond).
+
+Spectroscopy: Study of absorption/emission characteristics of matter when exposed to Electromagnetic Radiation.
+Spectrometry: Getting qualitative measurements of mass, mass/charge ratio.
+"
+Response: 
+"
+<body>
+	<h1>IR Spectroscopy</h1>
+	<ul>
+		<li><strong>Conjugation in IR:</strong> For a pi bond, it decreases wavelength (decreases pi bond character, weaker bond). For a sigma bond, it increases wavelength (increases pi bond character, stronger bond).</li>
+	</ul>
+    <h1>Spectroscopy and Spectrometry</h1>
+<ul>
+	<li><strong>Spectroscopy:</strong> Study of absorption/emission characteristics of matter when exposed to Electromagnetic Radiation.</li>
+	<li><strong>Spectrometry:</strong> Getting qualitative measurements of mass, mass/charge ratio.</li>
+</ul>
+</body>
+
+" 
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Mass Spectrometry
+
+Typical mass spectrum. Y axis is relative abundance, X axis is mass/charge. Charge typically is 1, so X axis is mass. Tallest signal at around 124 is called “base peak”. The Y axis is such set so that 100 abundance matches the peak. Singal furthest to the right is “Molecular ion peak”. It gives the actual molar mass of the sample.
+Zoom in! M + 1 peak: from heavier isotope (usually carbon).
+Sulfur, Bromine, Chlorine- M+2 peaks (their isotopes are 2 mass units apart).
+Sulfur: second peak will be 4% of the first.
+Chlorine: second peak will be 31% of the first.
+Bromine: second peak will be 98% of the first.
+In terms of base peak, the most abundant is the most stable.
+Carbocation Stability: Splits that form Allylic/Benzylic is the most stable, followed by tertiary, secondary, then primary chains. Also stable is where carbon in a carbonyl group has a positive charge.
+Alcohol groups: baby peak at 18 (amu of water)
+
+"
+Response: 
+"
+<body>
+<h1>Mass Spectrometry</h1>
+<h2>Typical mass spectrum</h2>
+<p>The Y axis is relative abundance, X axis is mass/charge. Charge typically is 1, so X axis is mass. Tallest signal at around 124 is called “base peak”. The Y axis is such set so that 100 abundance matches the peak. Signal furthest to the right is “Molecular ion peak”. It gives the actual molar mass of the sample.</p>
+<h2>Zoom in!</h2>
+<p>M + 1 peak: from heavier isotope (usually carbon).
+Sulfur, Bromine, Chlorine- M+2 peaks (their isotopes are 2 mass units apart).
+Sulfur: second peak will be 4% of the first.
+Chlorine: second peak will be 31% of the first.
+Bromine: second peak will be 98% of the first.</p>
+<h2>Carbocation Stability</h2>
+<p>Splits that form Allylic/Benzylic is the most stable, followed by tertiary, secondary, then primary chains. Also stable is where carbon in a carbonyl group has a positive charge.</p>
+<h2>Alcohol groups</h2>
+<p>Baby peak at 18 (amu of water).</p>
+</body>
+" 
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Proposing Molecular Formula Guideline:
+Only 1 halogen/sulfur per molecule (sulfur, chlorine, bromine).
+Nitrogen rule: if even molar mass, 0/even number of nitrogen. If odd molar mass, 1/odd number of nitrogen.
+1.1 rule: Max number of carbons: take the ratio of M+1 to M peak. Carbon’s isotopes gives 1.1% intensity per carbon atom. Thus, take percent of M+1 to M, and divide by 1.1 to give number of carbons (if decimal, try both closest integers)
+H rule: Max number of H: 2C+2 +N (basically, dont get a negative degrees of unsat).
+Find total molar mass: M peak.
+Find if there are halogen/sulfur first, then subtract its molar mass from the M peak.
+This is the mass you have to “play with”.
+Divide carbon’s 12 mm into the M, and the remainder is the number of hydrogens.
+Now you have CxHxX (where X could be halogen/sulfur).
+Then, you can generate variations based on adding N (14amu=CH2) and O (16amu=CH4).
+REMEMBER: nitrogen, 1.1, and H rules!
+
+"
+Response: 
+"
+<body>
+<h1>Guideline for Proposing Molecular Formula</h1>
+<h2>Halogen and Sulfur</h2>
+<ul>
+  <li>Only 1 halogen/sulfur per molecule (sulfur, chlorine, bromine).</li>
+</ul>
+<h2>Nitrogen Rule</h2>
+<ul>
+  <li>If even molar mass, 0/even number of nitrogen.</li>
+  <li>If odd molar mass, 1/odd number of nitrogen.</li>
+</ul>
+<h2>1.1 Rule</h2>
+<ul>
+  <li>Max number of carbons: take the ratio of M+1 to M peak.</li>
+  <li>Carbon’s isotopes give 1.1% intensity per carbon atom.</li>
+  <li>Take percent of M+1 to M, and divide by 1.1 to give the number of carbons (if decimal, try both closest integers).</li>
+</ul>
+<h2>H Rule</h2>
+<ul>
+  <li>Max number of H: 2C+2 +N (basically, don't get negative degrees of unsaturation).</li>
+</ul>
+<h2>Steps for Finding Molecular Formula</h2>
+<ol>
+  <li>Find total molar mass: M peak.</li>
+  <li>Find if there are halogen/sulfur first, then subtract their molar mass from the M peak.</li>
+  <li>This is the mass you have to “play with”.</li>
+  <li>Divide carbon’s 12 amu into the M, and the remainder is the number of hydrogens.</li>
+  <li>Now you have CxHxX (where X could be halogen/sulfur).</li>
+  <li>Then, you can generate variations based on adding N (14 amu=CH2) and O (16 amu=CH4).</li>
+</ol>
+<p>REMEMBER: nitrogen, 1.1, and H rules!</p>
+</body>
+" 
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Degrees of Unsaturation:
+Normal carbons have 2n+2 H’s, but its decreased by rings/pi bonds.
+Degree of Unsaturation: 2C+2+N-H-X2. Think of it as ‘predicted hydrogens’ - ‘actual hydrogens’, then +N-X. This gives delocalized electrons, but you want pi bonds, so divide by 2.
+This gives the number of pi bonds/rings in the sample.
+Always positive integer (including 0).
+
+"
+Response: 
+"
+<body>
+<h1>Degrees of Unsaturation</h1>
+<p>Normal carbons have 2n+2 H’s, but its decreased by rings/pi bonds.</p>
+<p>Degree of Unsaturation: 2C+2+N-H-X2. Think of it as ‘predicted hydrogens’ - ‘actual hydrogens’, then +N-X. This gives delocalized electrons, but you want pi bonds, so divide by 2.</p>
+<p>This gives the number of pi bonds/rings in the sample. Always positive integer (including 0).</p>
+</body>
+" 
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where you see fit. Use the outline style of note taking:
+NMR:
+Nuclei of random sample have random spins (random direction of vector of magnetic field)
+When exposed to B0, they will either be parallel or antiparallel.
+Antiparallel slightly more energy than parallel. In other words, its slightly more unstable.
+When the sample is irradiated with radio waves giving the exact energy difference the two states, they flip. Parallel -> Antiparallel, vise versa. The proton is said to be in resonance with the radiation.
+Look here: stronger the field, more energy required to achieve resonance.
+For a hydrogen atom, the field felt at the nucleus depends also on the magnetic fields of the atoms around it.
+NMR graph:
+Chemical shift is symbolized by delta, in ppm.
+TMS is defined at 0: ignore it. 
+With this in mind, lower ppm -> harder to resonate.
+Atom with EVEN number of BOTH protons and electrons has no magnetic moment, and won’t show up on NMR.
+
+"
+Response: 
+"
+<body>
+<h1>NMR</h1>
+<ul>
+    <li>Nuclei of random sample have random spins (random direction of vector of magnetic field)</li>
+    <li>When exposed to B0, they will either be parallel or antiparallel.</li>
+    <li>Antiparallel slightly more energy than parallel. In other words, it's slightly more unstable.</li>
+    <li>When the sample is irradiated with radio waves giving the exact energy difference between the two states, they flip. Parallel -&gt; Antiparallel, vise versa. The proton is said to be in resonance with the radiation.</li>
+    <li>Stronger the field, more energy required to achieve resonance.</li>
+    <li>For a hydrogen atom, the field felt at the nucleus depends also on the magnetic fields of the atoms around it.</li>
+</ul>
+<h2>NMR graph</h2>
+<ul>
+    <li>Chemical shift is symbolized by delta, in ppm.</li>
+    <li>TMS is defined at 0: ignore it.</li>
+    <li>With this in mind, lower ppm -&gt; harder to resonate.</li>
+</ul>
+<h2>Exceptions</h2>
+<ul>
+    <li>Atom with an EVEN number of BOTH protons and electrons has no magnetic moment, and won’t show up on NMR.</li>
+</ul>
+</body>
+" 
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where you see fit. Use the outline style of note taking:
+Shielding and Deshielding:
+Shielding is electron density. Deshielding is thus taking away from that.
+Deshielding caused by electronegative atoms (F,O,N,X) (most significant), pi systems (very significant), triple bonds (less significant).
+EX: O is more electronegative than ketone group. Thus, it gives more downfielding effects (less energy needed to flip)
+Shielding caused by electropositive atoms, other H, R groups, sp3 carbons.
+Remember: The stronger the initial magnetic field felt by nucleus, the more energy you need to flip nucleus.
+Reasoning: If you have less electron density around an atom, it feels less initial magnetic field. As such, you don’t need much energy to flip, making NMR peak go to the left. Likewise, if you have more electron density, you need more energy to flip the nucleus spins. Technically, shielding is good, because needing more energy to flip increases the resolution of the NMR test.
+Trick: Downfield (larger delta) -> Deshielding. Upfield (lower delta) -> Shielding.
+
+"
+Response: 
+"
+<body>
+<h1>Shielding and Deshielding</h1>
+<h2>Introduction</h2>
+<p>Shielding refers to electron density, while deshielding takes away from that electron density. In this context, deshielding is caused by electronegative atoms, pi systems, and triple bonds. On the other hand, electropositive atoms, other H, R groups, and sp3 carbons cause shielding.</p>
+<h2>Causes of Deshielding</h2>
+<p>The most significant cause of deshielding is electronegative atoms such as F, O, N, and X. Pi systems are very significant while triple bonds are less significant. For example, O is more electronegative than a ketone group, leading to more downfielding effects and requiring less energy to flip.</p>
+<h2>Causes of Shielding</h2>
+<p>Shielding is caused by electropositive atoms, other H, R groups, and sp3 carbons. It is important to remember that the stronger the initial magnetic field felt by the nucleus, the more energy is needed to flip it. Less electron density around an atom leads to feeling less initial magnetic field, meaning less energy is required to flip and making the NMR peak go to the left. Conversely, more electron density requires more energy to flip the nucleus spins.</p>
+<h2>Trick for Understanding Shielding and Deshielding</h2>
+<p>Remember that downfield (larger delta) is deshielding, while upfield (lower delta) is shielding. Technically, shielding is good because needing more energy to flip increases the resolution of the NMR test.</p>
+</body>
+" 
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where you see fit. Use the outline style of note taking:
+
+Chemically Equivalent H atoms:
+H atoms are chemically equivalent if either condition is met:
+1. Bonded to the same sp3 atom that can rotate freely. This also follows for the next atom. This part of the molecule only gives one signal, because the central C can rotate so that all methyl groups are just as close to the right side.
+2. Related by symmetry (plane or point).
+Every chemically equivalent H atom will only produce one NMR signal.
+See *CHEMICAL for alkene tricks.
+
+
+Putting it together:
+
+Because set B closer to the electronegative O, it has less electron density, deshielding, downfield, larger delta (chemical shift). Thus, you dont need much energy to flip. (upfield = more energy).
+
+Signal intensity directly proportional to number of H.
+
+"
+Response: 
+"
+<body>
+    <h1>Chemical Equivalence in NMR</h1>
+    <h2>Chemically Equivalent H atoms</h2>
+    <p>H atoms are chemically equivalent if either condition is met:</p>
+    <ol>
+      <li>Bonded to the same sp3 atom that can rotate freely. This also follows for the next atom. This part of the molecule only gives one signal, because the central C can rotate so that all methyl groups are just as close to the right side.</li>
+      <li>Related by symmetry (plane or point).</li>
+    </ol>
+    <p>Every chemically equivalent H atom will only produce one NMR signal. See *CHEMICAL for alkene tricks.</p>
+    <h2>Putting it together</h2>
+    <p>Because set B closer to the electronegative O, it has less electron density, deshielding, downfield, larger delta (chemical shift). Thus, you don't need much energy to flip (upfield = more energy).</p>
+    <p>Signal intensity is directly proportional to the number of H.</p>
+  </body>
+" 
+
+

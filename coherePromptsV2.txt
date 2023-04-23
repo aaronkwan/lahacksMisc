@@ -1,0 +1,361 @@
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Plan for introduction of my research paper:
+Introduce CTC
+FDA approved assay
+Callback to previous paper, enumeration?
+In addition to enumeration, the molecular characterization (gene panel)
+Mutations in key genes
+Callback to previous papers?
+Ctc status over time, during the course of the disease
+Present study goal:
+"
+Response: 
+"
+ <body>
+    <h1>Characterization of a Specific Gene Panel</h1>
+    <ol>
+      <li>Introduction</li>
+      <li>The Cancer Immunotherapy (CTC) Assay</li>
+      <li>FDA Approved Assay</li>
+      <li>Callback to Previous Paper: Enumeration</li>
+      <li>Callback to Previous Paper: Molecular Characterization (Gene Panel)</li>
+      <li>Mutations in Key Genes</li>
+      <li>CTC Status Over Time (during the Course of Disease)</li>
+      <li>Study Goal: Characterization of a Specific Gene Panel</li>
+      <ol>
+        <li>Enumeration</li>
+        <li>Molecular Characterization</li>
+        <li>Mutations in Key Genes</li>
+        <li>CTC Status Over Time (during the Course of Disease)</li>
+      </ol>
+    </ol>
+  </body>
+"
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Introduction:
+Existing Risk stratification tests in two types of prostate cancer: mCRPC, and localized (early-stage) prostate cancer
+CTCs can provide new noninvasive testing
+Existing immunoflourecence-score methods is a critical limitation
+Previous paper shows CTCs contain highly intact RNA
+This paper establishes RNA-based molecular signature- high throughput + highly quantitative detection of prostate CTCs after microfluidic enrichment
+Cohort specific conclusions.
+
+"
+Response: 
+"
+<body>
+	<h1>Introduction</h1>
+	<p>Existing Risk Stratification Tests</p>
+	<p>Two types of prostate cancer: mCRPC, and localized (early-stage) prostate cancer</p>
+	<p>CTCs Can Provide New Non-Invasive Testing</p>
+	<p>Existing Immunofluorescence Score Methods are a Critical Limitation</p>
+	<p>Previous work shows CTCs contain highly intact RNA</p>
+	<p>Establishes RNA-based Molecular Signature for Prostate CTCs</p>
+	<p>Conclusion</p>
+	<p>High Throughput + Highly Quantitative Detection of Prostate CTCs After Microfluidic Enrichment</p>
+</body>
+"
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Histology: Metastatic, papillary serous cystadenoma
+Prognosis: Uncertain, poor.
+Clues: large tumor size, p63+
+
+10/18/22:
+PAS:
+Using their 6 in addition to our 7 (7 is our priority)
+WTA: Dr. Zhu says can use, but first retry ddpcr with YA74.
+WTA: expensive. Nested PCR: less expensive.
+Ovarian:
+We have markers
+Research neoadjuvant chemotherapy. 
+Detect Minimal residual disease, or detect first?
+Histology: Metastatic, papillary serous cystadenoma
+Prognosis: Uncertain, poor.
+Clues: large tumor size, p63+
+
+"
+Response: 
+"
+  <body>
+    <h1>Histology and Prognosis Report</h1>
+    <h2>Histology</h2>
+    <p>Metastatic, papillary serous cystadenoma</p>
+    <h2>Prognosis</h2>
+    <p>Uncertain, poor</p>
+    <h2>Clues</h2>
+    <ul>
+      <li>Large tumor size</li>
+      <li>p63+</li>
+    </ul>
+    <h2>10/18/22 Updates</h2>
+    <h3>PAS</h3>
+    <p>Using their 6 in addition to our 7 (7 is our priority)</p>
+    <h3>WTA</h3>
+    <ul>
+      <li>Dr. Zhu says can use, but first retry ddpcr with YA74</li>
+      <li>WTA is expensive</li>
+      <li>Nested PCR is less expensive</li>
+    </ul>
+    <h3>Ovarian</h3>
+    <ul>
+      <li>We have markers</li>
+      <li>Research neoadjuvant chemotherapy</li>
+      <li>Detect minimal residual disease or detect first?</li>
+    </ul>
+  </body>
+"
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Theory of relativity
+E=mc^2
+Space-time continuum
+Time dilation
+"
+Response: 
+"
+<body>
+
+<h1>Theory of Relativity</h1>
+<p>The theory of relativity is a set of scientific principles that explain the behavior of matter and energy in the presence of gravity, as well as the behavior of gravity in the presence of matter and energy. The theory is based on two postulates: that the laws of physics are the same for all observers in any inertial frame of reference, and that the speed of light is the same for all observers in any inertial frame of reference.</p>
+
+<h2>E=mc^2</h2>
+<p>The theory of relativity also explains a fundamental relationship between energy and mass, which is expressed in the equation E=mc^2, where E is energy, m is mass, and c is the speed of light.</p
+
+<h2>Space-time continuum</h2>
+<p>The theory of relativity also describes a four-dimensional space-time continuum, in which the three dimensions of space and the one dimension of time are linked. This space-time continuum is often referred to as the fabric of space-time, and it is a fundamental part of the theory of relativity.</p
+
+<h2>Time dilation</h2>
+<p>One of the most famous predictions of the theory of relativity is time dilation, which is the slowing of time for an observer as they move relative to another observer. This effect is most commonly experienced by astronauts and pilots, who often experience time passing more slowly when they are in orbit or flying at high speeds.</p
+</body>
+"
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Prove: 1+2+3+...+n = n(n+1)/2
+induction proof
+Base case: n=1 -> 1=1(1+1)/2
+Inductive hypothesis: assume true for n=k
+Inductive step: show true for n=k+1
+"
+Response: 
+"
+<body>
+<p>Prove: 1+2+3+...+n = n(n+1)/2</p>
+<p>Base case: n=1 -> 1=1(1+1)/2</p>
+<p>Inductive hypothesis: assume true for n=k</p>
+<p>Inductive step: show true for n=k+1</p>
+</body>
+"
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+The Fundamental Theorem of Calculus
+part 1: if f is continuous on [a,b], then F(x) = int_a^x f(t) dt is differentiable and F'(x) = f(x)
+part 2: if f is continuous on [a,b], then int_a^b f(x) dx = F(b) - F(a)
+"
+Response: 
+"
+<body>
+<h1>The Fundamental Theorem of Calculus</h1>
+<p>The first part of the Fundamental Theorem of Calculus states that if f is continuous on [a,b], then F(x) = int_a^x f(t) dt is differentiable and F'(x) = f(x) part 1.</p>
+<p>The second part of the Fundamental Theorem of Calculus states that if f is continuous on [a,b], then int_a^b f(x) dx = F(b) - F(a) part 2.</p>
+</body>
+"
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+The Catcher in the Rye:
+Holden, a teenage boy, is expelled from his prep school
+He wanders around New York City for a few days
+He encounters several people, including a former girlfriend, a prostitute, and a classmate's mother
+He struggles with feelings of isolation, depression, and confusion about adulthood
+The book ends with Holden in a mental hospital, reflecting on his experiences
+"
+Response: 
+"
+<body>
+<ol>
+  <li>Holden, a teenage boy, is expelled from his prep school</li>
+  <li>He wanders around New York City for a few days</li>
+  <li>He encounters several people, including a former girlfriend, a prostitute, and a classmate's mother</li>
+  <li>He struggles with feelings of isolation, depression, and confusion about adulthood</li>
+  <li>The book ends with Holden in a mental hospital, reflecting on his experiences and searching for meaning in life</li>
+  <li>The Catcher in the Rye is a novel by J.D. Salinger that follows Holden, a teenage boy, as he is expelled from his prep school, wanders around New York City for a few days, encounters several people, and struggles with feelings of isolation, depression, and confusion about adulthood before ending with him in a mental hospital reflecting on his experiences and searching for meaning in life.</li>
+</ol>
+</body>
+"
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+1984 Book Notes:
+The story takes place in a totalitarian society controlled by "the Party"
+Winston Smith, the protagonist, works for the Party but secretly rebels against its ideology
+He meets and falls in love with Julia, another rebel
+They are eventually caught and tortured until they betray each other
+The book ends with Winston's spirit broken, and he has learned to love Big Brother
+"
+Response: 
+"
+<body>
+<ul>
+  <li>The book is set in a totalitarian society controlled by "the Party."</li>
+  <li>The Party's goal is to eliminate all opposition to its rule and to create a perfect society.</li>
+  <li>The protagonist, Winston Smith, works for the Party but secretly rebels against its ideology.</li>
+  <li>He falls in love with another rebel, Julia, and the two are tortured until they betray each other.</li>
+  <li>The book ends with Winston's spirit broken and him learning to love Big Brother, the symbol of the Party.</li>
+</ul>
+</body>
+"
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+The Odyssey:
+The story follows the Greek hero Odysseus as he journeys home after the Trojan War
+Along the way, he faces challenges such as the wrath of the sea god Poseidon and the seductive powers of the sorceress Circe
+His wife Penelope and son Telemachus await him in his homeland of Ithaca
+He must defeat a group of suitors vying for Penelope's hand and reclaim his kingdom
+The book ends with Odysseus victorious and reunited with his family.
+
+"
+Response: 
+"
+<body>
+<ul>
+  <li>The story of The Odyssey follows the Greek hero Odysseus as he journeys home after the Trojan War.</li>
+  <li>Odysseus must confront challenges such as the wrath of the sea god Poseidon and the seductive powers of the sorceress Circe along the way.</li>
+  <li>He is married to Penelope and has a son named Telemachus who await him in his homeland of Ithaca.</li>
+  <li>Odysseus must defeat a group of suitors vying for Penelope's hand and reclaim his kingdom.</li>
+  <li>He finally returns victorious and reunites with his family.</li>
+</ul>
+</body>
+"
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+The story takes place on the Greek island of Ithaca
+The narrator, Odysseus, is a Greek king who is returning home after the Trojan War
+Odysseus's wife, Queen Penelope, is a clever and resourceful woman who outwits many of Odysseus's enemies
+The story is a metaphor for Odysseus's journey home after the war, which is full of obstacles and setbacks
+The story ends with Odysseus finally returning home to Ithaca and reuniting with his family
+"
+Response: 
+"
+<body>
+<ul>
+<li>The story takes place on the Greek island of Ithaca</li>
+<li>The narrator, Odysseus, is a Greek king who is returning home after the Trojan War</li>
+<li>Odysseus's wife, Queen Penelope, is a clever and resourceful woman who outwits many of Odysseus's enemies</li>
+<li>The story is a metaphor for Odysseus's journey home after the war, which is full of obstacles and setbacks</li>
+<li>The story ends with Odysseus finally returning home to Ithaca and reuniting with his family</li>
+</ul>
+</body>
+"
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+Can you summarize the following thoughts into a well-outlined series of notes?
+
+- Chemistry Acid Pkas:
+- At acid pKa, 1:1 HA/A-.
+- At 1 pH lower (1 order of magnitude more H+), 10:1 HA/A-.
+- At 1 pH higher (1 order of magnitude less H+), 1:10 HA/A-.
+- Henderson Hasselback: pH=pKa+log(A-/HA)
+- pI: average the two pKas around the neutral range (when molecule is zwitterion)
+- If you are at carboxy pKa, its actually closer to 0.5 net charge (not all of the molecules have COO-, but they definitely have NH3+).
+"
+Response: 
+"
+<body>
+<ul>
+  <li>pH = pKa + log(A-/HA)</li>
+  <li>The closer to neutral pH, the more accurate this equation is.</li>
+  <li>pKa's of amino acids in vivo:
+    <ul>
+      <li>closer to 7 (but definitely &lt; 7) for acidic amino acids</li>
+      <li>closer to 7 (but definitely &gt; 7) for basic amino acids</li>
+    </ul>
+  </li>
+  <li>The sum of the charges of all the amino acids in a peptide is zero.</li>
+  <li>The charges of amino acids are balanced in several different ways:
+    <ul>
+      <li>peptide bonds (O- to N-), 2 H+ per peptide bond</li>
+      <li>amino groups (N-), 1/2 H+ per amino group</li>
+      <li>carboxyl groups (C-), 1/2 H+ per carboxyl group</li>
+    </ul>
+  </li>
+  <li>The pH at which a peptide is zwitterionic is the isoelectric point (pI).</li>
+  <li>The pI is the pH at which a peptide has an equal amount of positive and negative charges.</li>
+  <li>When the pH is lower than the pI, the peptide is "net" acidic (more H+).</li>
+  <li>When the pH is higher than the pI, the peptide is "net" basic (more A-).</li>
+</ul>
+</body>
+"
+--SEPARATOR--
+Prompt: 
+"
+Please organize the following ideas into a coherent notes document IN HTML. Add words to make complete sentences, and generate some headings where necessary. Use the outline style of note taking:
+My Hackathon plan.
+2-day event
+solve problems
+teams of 4
+pitch to judges
+tech focus
+food provided
+prizes awarded
+networking opportunity
+brainstorm ideas
+learn new skills
+code all night
+mentorship available
+diverse participants
+innovative solutions
+sponsor booths
+creative collaboration
+
+"
+Response: 
+"
+<body>
+<ul>
+  <li>Future:</li>
+  <li>Day 1:</li>
+  <ul>
+    <li>Arrive and set up camp (~6:00 PM).</li>
+    <li>Breakfast (7:00 AM - 9:00 AM).</li>
+    <li>Brainstorm and choose a problem statement (9:00 AM - 11:00 AM).</li>
+    <li>Form teams (11:00 AM - 1:00 PM).</li>
+    <li>Solve the problem (1:00 PM - 4:00 PM).</li>
+    <li>Refuel with lunch (1:00 PM - 2:00 PM).</li>
+    <li>Demo solution to judges (4:00 PM - 6:00 PM).</li>
+    <li>Winners announced (6:00 PM - 7:00 PM).</li>
+  </ul>
+  <li>Day 2:</li>
+  <ul>
+    <li>Breakfast (7:00 AM - 9:00 AM).</li>
+    <li>Teams pitch solutions to sponsors (9:00 AM - 11:00 AM).</li>
+    <li>Lunch (12:00 PM - 1:00 PM).</li>
+    <li>Demo solutions to sponsors (1:00 PM - 3:00 PM).</li>
+    <li>Winners announced (3:00 PM - 4:00 PM).</li>
+    <li>Networking dinner (6:00 PM - 8:00 PM).</li>
+    <li>Depart (8:00 PM - 10:00 PM).</li>
+  </ul>
+</ul>
+</body>
+"
